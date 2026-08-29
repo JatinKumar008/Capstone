@@ -1,0 +1,127 @@
+**NovaBank – Retail‑Banking Product Terms (Fictional)**  
+*All rates and terms are indicative and subject to change at NovaBank’s discretion, subject to RBI regulations and the customer’s credit profile.*
+
+---
+
+## 1. NovaSavings Account – Standard Savings  
+
+| Feature | Details |
+|---------|---------|
+| **Interest Rate** | **3.00 % p.a.** on balances up to ₹2 Lakh  <br> **3.50 % p.a.** on the portion above ₹2 Lakh (slab‑wise) |
+| **Interest Calculation** | Daily on closing balance, credited **quarterly** |
+| **Minimum Balance** | ₹5,000 (individual) / ₹10,000 (joint) – waived for students & senior citizens |
+| **Maximum Withdrawal Limit** | ₹50,000 per day (via ATM, POS, online) – can be increased on request |
+| **Free Transactions** | 10 free debit‑card transactions per month; thereafter **₹10** per transaction |
+| **Lock‑in / Withdrawal Rules** | No lock‑in. Funds can be withdrawn anytime. Cheque book issuance may be restricted if balance falls below minimum. |
+| **Key Features** | • Zero‑balance option for senior citizens (≥60 y) <br>• Mobile & internet banking with real‑time alerts <br>• Auto‑sweep to linked NovaFixed Deposit for idle balances <br>• Free e‑statements & SMS alerts |
+| **Important T&C** | • Interest is taxable as per Indian Income‑Tax Act. <br>• NovaBank may levy a **₹100** monthly service fee if the minimum balance is not maintained for three consecutive months. <br>• Account may be closed with 30 days notice; any pending dues will be deducted. |
+
+---
+
+## 2. NovaPrime Savings Account – Premium Tier  
+
+| Feature | Details |
+|---------|---------|
+| **Interest Rate** | **4.00 % p.a.** up to ₹5 Lakh  <br> **4.75 % p.a.** on balances above ₹5 Lakh |
+| **Interest Calculation** | Daily, credited **monthly** |
+| **Eligibility** | Minimum annual income **₹12 Lakh** ( salaried) or **₹15 Lakh** (self‑employed) OR existing NovaBank credit‑card holder |
+| **Minimum Balance** | ₹25,000 (individual) / ₹50,000 (joint) – waived for senior citizens |
+| **Free Transactions** | Unlimited free debit‑card transactions, **₹5** per cheque after 5 free cheques per month |
+| **Lock‑in / Withdrawal Rules** | No lock‑in. Same withdrawal limits as standard savings, but **₹1 Lakh** per day can be withdrawn via internet banking on request. |
+| **Key Features** | • Complimentary **NovaCreditCard Classic** (no annual fee for first year) <br>• Free **NRI** inbound/outbound remittances up to **₹2 Lakh** per month <br>• Priority customer service hotline <br>• Higher auto‑sweep limit (up to **₹5 Lakh**) to NovaFixed Deposit <br>• Free locker (size S) for the first year |
+| **Important T&C** | • Annual fee **₹500** after the first year if average balance falls below **₹50,000**. <br>• Interest is taxable. <br>• Account may be terminated if the customer breaches any banking regulations or is declared a defaulter. |
+
+---
+
+## 3. NovaFixed Deposit (FD) – Various Tenures  
+
+| Tenure | Interest Rate (p.a.)* | Minimum Deposit | Premature Withdrawal Penalty |
+|--------|----------------------|----------------|------------------------------|
+| 7 days – 6 months | 3.25 % – 3.75 % (sliding) | ₹10,000 | **0.5 %** of interest earned + 1 % of principal |
+| 6 months – 1 year | 4.00 % – 4.50 % | ₹10,000 | **0.5 %** of interest earned + 1 % of principal |
+| 1 year – 2 years | 5.00 % – 5.50 % | ₹10,000 | **1 %** of interest earned + 1 % of principal |
+| 2 years – 3 years | 5.75 % – 6.25 % | ₹10,000 | **1 %** of interest earned + 1 % of principal |
+| 3 years – 5 years | 6.50 % – 7.00 % | ₹10,000 | **1.5 %** of interest earned + 1 % of principal |
+| 5 years – 10 years | 7.00 % – 7.25 % | ₹10,000 | **2 %** of interest earned + 1 % of principal |
+
+\*Rates are **fixed** for the entire tenure; higher rates for senior citizens (+0.25 %).  
+
+**General FD Terms**
+
+- **Interest Payout Options** – *Quarterly*, *Half‑Yearly*, *Annual*, or *Maturity‑only* (default).  
+- **Lock‑in** – Funds are locked for the chosen tenure; premature withdrawal allowed only after the first 7 days with penalty as above.  
+- **Auto‑Renewal** – On maturity, the deposit can be auto‑renewed for the same tenure at prevailing rates unless the customer opts for payout.  
+- **Nomination** – Must be provided at opening; can be updated anytime via net‑banking.  
+- **Taxation** – TDS @ 10 % (or 20 % for NRI) on interest if interest exceeds **₹40,000** per FY.  
+- **Documentation** – KYC (Aadhaar/PAN), address proof, and a **PAN** copy for interest credit.  
+
+---
+
+## 4. NovaRecurring Deposit (RD)  
+
+| Feature | Details |
+|---------|---------|
+| **Tenure Options** | 6 months, 12 months, 18 months, 24 months, 36 months |
+| **Monthly Installment (Min/Max)** | **₹500** – **₹5 Lakh** per month |
+| **Interest Rate (p.a.)** | 5.00 % – 6.00 % (sliding with tenure) – senior citizen surcharge **+0.25 %** |
+| **Interest Calculation** | Compounded quarterly, credited at maturity |
+| **Lock‑in** | No withdrawal allowed before maturity, except in case of **death** or **permanent disability** (subject to documentation). |
+| **Premature Closure** | Allowed after 6 months with penalty **1 %** of accrued interest + **0.5 %** of total deposited principal. |
+| **Key Features** | • Automatic monthly debit from linked NovaSavings/NovaPrime account <br>• Flexible tenure choice <br>• Option to convert to NovaFixed Deposit at maturity with a 0.5 % bonus rate <br>• Nomination facility |
+| **Important T&C** | • Missed installment for **3** consecutive months leads to automatic closure and forfeiture of accrued interest. <br>• TDS as per FD rules. <br>• Account can be transferred to another NovaBank branch with 30 days notice. |
+
+---
+
+## 5. NovaPersonal Loan  
+
+| Parameter | Details |
+|-----------|---------|
+| **Loan Amount** | **₹50,000** – **₹25 Lakh** (higher limits for salaried & NRIs) |
+| **Tenure** | 12 months – 60 months (flexible) |
+| **Interest Rate** | **10.99 % – 14.99 % p.a.** (fixed) – senior citizen surcharge **‑0.25 %** |
+| **Processing Fee** | **0.5 %** of loan amount (minimum **₹1,000**, maximum **₹5,000**) |
+| **Pre‑payment** | Free pre‑payment after 12 months; before that, a **1 %** penalty on the outstanding principal. |
+| **Disbursement** | Within **48 hours** of document verification (via NEFT/IMPS) |
+| **Security** | Unsecured (no collateral) – eligibility based on credit score (≥ 750 preferred) |
+| **Key Features** | • Instant loan approval for existing NovaBank customers via mobile app <br>• Flexible EMI options (monthly, quarterly) <br>• Auto‑debit from linked NovaSavings/NovaPrime account <br>• Loan top‑up up to **30 %** of original amount after 12 months of good repayment history |
+| **Important T&C** | • Late payment fee **₹500** + interest on overdue amount at **2 %** per month. <br>• Default after **90 days** leads to legal recovery and reporting to credit bureaus. <br>• Income proof (salary slips, IT returns) required; self‑employed must provide audited accounts. <br>• Insurance cover (personal accident) optional – premium **₹1,200** per annum. |
+
+---
+
+## 6. NovaCreditCard – Two Variants  
+
+### 6.1 NovaCreditCard Classic  
+
+| Feature | Details |
+|---------|---------|
+| **Annual Fee** | **₹0** for the first year; **₹1,000** thereafter |
+| **Credit Limit** | ₹25,000 – ₹5 Lakh (based on income & credit score) |
+| **Interest Rate (p.a.)** | **3.49 % per month** (≈ 42 % p.a.) on revolving balances |
+| **Reward Points** | 1 point per **₹100** spend; redeemable for vouchers, airline miles, or statement credit |
+| **Cashback** | 0.5 % on grocery & utility bills (max **₹1,000** per month) |
+| **Grace Period** | 45 days (if full balance is paid) |
+| **Key Features** | • Contactless payments (NFC) <br>• Free EMI conversion on purchases up to **₹1 Lakh** (interest rate 12 % p.a.) <br>• Zero‑fee foreign‑currency transactions up to **₹50,000** per month (after that **2 %** surcharge) |
+| **Important T&C** | • Minimum payment **₹500** or 5 % of outstanding, whichever is higher. <br>• Late payment fee **₹1,200** + interest on overdue amount. <br>• Card may be suspended if usage exceeds **₹2 Lakh** in a month without prior notification. |
+
+### 6.2 NovaCreditCard Platinum  
+
+| Feature | Details |
+|---------|---------|
+| **Annual Fee** | **₹3,500** (waived on spend ≥ ₹2 Lakh per annum) |
+| **Credit Limit** | ₹5 Lakh – ₹15 Lakh (subject to income & credit profile) |
+| **Interest Rate (p.a.)** | **3.25 % per month** (≈ 39 % p.a.) |
+| **Reward Points** | 2 points per **₹100** spend; accelerated to **5 points** on travel & dining. |
+| **Cashback** | 1 % on all purchases; 2 % on fuel (max **₹2,000** per month) |
+| **Airport Lounge Access** | 4 complimentary lounge visits per year (via Priority Pass) |
+| **Travel Insurance** | Free **₹5 Lakh** personal accident cover & **₹2 Lakh** lost baggage cover per trip |
+| **Grace Period** | 55 days (if full balance is paid) |
+| **Key Features** | • Unlimited EMI conversion at **10 % p.a.** <br>• Zero‑fee foreign‑currency transactions (no cap) <br>• Complimentary concierge service <br>• Higher auto‑pay limits (up to **₹5 Lakh**) |
+| **Important T&C** | • Minimum payment **₹2,000** or 5 % of outstanding, whichever is higher. <br>• Late payment fee **₹2,000** + interest on overdue amount. <br>• Card may be de‑activated if annual spend falls below **₹50,000** for two consecutive years. <br>• Reward points expire after **24 months** of inactivity. |
+
+---
+
+### General Disclaimer (Applicable to All Products)
+
+- All rates are **fixed at the time of product launch** and may be revised by NovaBank in accordance with RBI policy changes, market conditions, or the bank’s internal risk assessment.  
+- The bank reserves the right to **accept or reject** any application based on creditworthiness, KYC compliance, and regulatory requirements.  
+- **Charges & fees** mentioned are exclusive of

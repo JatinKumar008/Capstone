@@ -1,0 +1,61 @@
+QA EVALUATION SET (50 Pairs)
+
+Savings Account (1-10)
+1. Q: What is the interest rate on the Premium Savings Account? | A: 4.0% p.a.
+2. Q: How often is the savings account interest compounded? | A: Daily.
+3. Q: What is the minimum balance required to avoid a fee on the savings account? | A: ₹10,000.
+4. Q: What happens if my savings balance drops below ₹10,000? | A: You will be charged a Non-Maintenance Fee of ₹500 per month.
+5. Q: Can a 16-year-old open the Premium Savings Account? | A: No, the minimum age requirement is 18 years.
+6. Q: Can a Non-Resident Indian (NRI) open this savings account? | A: No, it is for resident individuals only.
+7. Q: How many free ATM withdrawals do I get per month? | A: 5 free withdrawals.
+8. Q: What is the charge for the 6th ATM withdrawal in a month? | A: ₹20.
+9. Q: How much does an RTGS transfer cost from the savings account? | A: ₹0 (It is free).
+10. Q: Can I open a joint Premium Savings Account? | A: Yes, single or joint accounts are allowed.
+
+Fixed Deposit (11-20)
+11. Q: What is the base interest rate for a 2-year FD? | A: 7.0% p.a.
+12. Q: What interest rate does a 65-year-old get on an FD? | A: 7.5% p.a. (7.0% base + 0.5% senior citizen bonus).
+13. Q: What is the minimum amount required to open an FD? | A: ₹10,000.
+14. Q: Can I open an FD for 6 months? | A: No, the minimum tenure is 1 year.
+15. Q: What is the maximum tenure for an FD? | A: 5 years.
+16. Q: Is there an option to auto-renew the FD when it matures? | A: Yes.
+17. Q: What is the penalty for withdrawing an FD before maturity? | A: A 1.0% reduction on the applicable interest rate.
+18. Q: Does the FD require a monthly payment? | A: No, it is a one-time deposit.
+19. Q: How old do you have to be to open an FD? | A: 18 years or older.
+20. Q: Can I withdraw my FD early? | A: Yes, but it is subject to a 1.0% premature withdrawal penalty.
+
+Recurring Deposit (21-30)
+21. Q: What is the interest rate for the Recurring Deposit? | A: 6.5% p.a.
+22. Q: What is the minimum monthly deposit for an RD? | A: ₹1,000.
+23. Q: What is the maximum I can deposit into my RD each month? | A: ₹50,000.
+24. Q: What is the minimum tenure for an RD? | A: 12 months.
+25. Q: Can I close my RD after 2 months? | A: No, there is a 3-month absolute lock-in period.
+26. Q: What happens if I miss a monthly RD installment? | A: You will be charged a ₹50 penalty per missed deposit.
+27. Q: What happens if I miss 3 RD installments in a row? | A: The account will close automatically.
+28. Q: Can a 17-year-old open an RD? | A: No, the minimum age is 18.
+29. Q: What is the maximum tenure for the RD? | A: 36 months.
+30. Q: Are the RD interest rates linked to the credit score? | A: No, it is a flat 6.5% p.a.
+
+Personal Loan (31-40)
+31. Q: Is the personal loan secured against an asset? | A: No, it is an unsecured loan.
+32. Q: What is the minimum CIBIL score required for a personal loan? | A: 700.
+33. Q: Can a self-employed business owner get the personal loan? | A: No, only salaried individuals are eligible.
+34. Q: What is the minimum monthly income required for a personal loan? | A: ₹30,000.
+35. Q: What is the maximum personal loan amount I can get? | A: ₹1,000,000.
+36. Q: How much is the processing fee for a ₹100,000 loan? | A: ₹2,000 (2.0% of the loan amount).
+37. Q: Can I pay off my personal loan completely after 6 months? | A: No, pre-closure is only allowed after 12 months of EMI payments.
+38. Q: What is the pre-closure charge for the personal loan? | A: 3.0% of the outstanding principal balance.
+39. Q: What happens if I pay my EMI late? | A: You are charged a ₹500 flat fee plus 2.0% penal interest per month on the overdue amount.
+40. Q: Can a 60-year-old apply for the personal loan? | A: No, the maximum age limit at application is 58 years.
+
+Travel Rewards Credit Card (41-50)
+41. Q: What is the minimum credit score required for the credit card? | A: 720.
+42. Q: How much is the annual fee for the Travel Rewards card? | A: ₹1,500.
+43. Q: How can I get the ₹1,500 annual fee waived? | A: By spending more than ₹100,000 in the previous calendar year.
+44. Q: What rewards do I earn when booking a flight? | A: 5x points.
+45. Q: What rewards do I earn on buying groceries with the card? | A: 1% cashback (as it is a non-flight spend).
+46. Q: How much does the bank charge if I exceed my credit card limit? | A: ₹500 per occurrence.
+47. Q: What is the fee for making a purchase in a foreign currency? | A: A 3.5% markup on the transaction value.
+48. Q: How much do I have to earn to qualify for the credit card? | A: A minimum of ₹40,000 per month.
+49. Q: What is the late payment fee on the credit card? | A: ₹750 per billing cycle if the minimum due is not met.
+50. Q: Can self-employed individuals apply for the credit card? | A: Yes, both salaried and self-employed profiles are eligible.
