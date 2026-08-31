@@ -1,0 +1,8 @@
+{
+  "samples": 10,
+  "faithfulness": 0.4,
+  "answer_relevancy": 0.9,
+  "refusal_correctness": 1.0,
+  "avg_latency_ms": 6792.4,
+  "p95_latency_ms": 11237.2
+}
