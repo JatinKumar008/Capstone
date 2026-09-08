@@ -1,0 +1,11 @@
+faiss-cpu
+rank_bm25
+sentence-transformers
+groq
+openai
+langchain
+langchain-community
+langchain-text-splitters
+tiktoken
+python-dotenv
+streamlit
