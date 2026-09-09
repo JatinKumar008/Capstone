@@ -1,32 +1,80 @@
-QA EVALUATION SET (30 Questions)
+QA EVALUATION SET (60 Questions)
 
-1. Q: What is the base interest rate for the NovaSavings Account on the first ₹2 lakh of average daily balance? | A: 3.00 % p.a.
+--- ORIGINAL 30 QUESTIONS (verified & lightly corrected) ---
+
+1. Q: What is the base interest rate for the NovaSavings Account on the first ₹2 lakh of average daily balance? | A: 3.00 % p.a.
 2. Q: What fee is charged if I close my NovaSavings account within 30 days of opening? | A: ₹500
-3. Q: What is the maximum daily withdrawal limit for the NovaPrime Savings Account? | A: ₹2 Lakh per day
-4. Q: What is the interest rate on the overdraft facility for the NovaSavings Account? | A: 11 % p.a.
+3. Q: What is the maximum daily withdrawal limit for the NovaPrime Savings Account? | A: ₹2 Lakh per day
+4. Q: What is the interest rate on the overdraft facility for the NovaSavings Account? | A: 11 % p.a.
 5. Q: What is the minimum balance requirement for an individual opening a NovaPrime Savings Account? | A: ₹50,000
-6. Q: What is the penalty for premature withdrawal of a fixed deposit with a tenure of 2 to 5 years? | A: 1.25 % of principal
-7. Q: What is the interest rate for a fixed deposit with a tenure of 1 to 2 years? | A: 5.00 % – 5.50 % p.a.
-8. Q: What is the annual fee for the NovaPrime metal debit card and when is it waived? | A: ₹1,200 annual fee, waived on ≥ ₹10 Lakh ADB
-9. Q: What monthly credit amount is required to waive the minimum balance for a NovaSavings Account? | A: monthly credit ≥ ₹10,000
-10. Q: What is the maximum overdraft facility available for a NovaPrime Savings Account? | A: ₹1 Lakh at 10.5 % p.a.
-11. Q: What is the minimum balance penalty for a NovaSavings account if my balance is below ₹5,000? | A: ₹500 per month (if balance < ₹5,000).
-12. Q: How many free ATM withdrawals can I make at my own NovaBankk ATM per month on a NovaSavings account? | A: First 5 withdrawals free per month.
-13. Q: What is the fee for an IMPS transfer from a NovaPrime Savings account? | A: Unlimited free (mobile app).
-14. Q: What is the fee for a demand draft to another bank from a NovaSavings account? | A: ₹50 per DD (up to ₹5,000).
-15. Q: What is the premature withdrawal penalty for a NovaFixed Deposit? | A: 0.5% of the interest accrued (or ₹500, whichever is higher).
-16. Q: What is the processing fee for a NovaPersonal Loan? | A: 1% of loan amount, capped at ₹5,000.
-17. Q: What is the annual fee for a NovaCreditCard Classic and when is it waived? | A: ₹1,200, waived on spending ≥ ₹1 Lakh in a calendar year.
-18. Q: How many free ATM withdrawals are allowed at other bank ATMs for a NovaPrime Savings account? | A: None; ₹20 per transaction.
-19. Q: What is the fee for a paper account statement for a NovaPrime Savings account? | A: ₹15 per statement.
-20. Q: What is the SMS alert fee for a NovaSavings account? | A: ₹5 per month (up to 100 alerts) but free for all customers from Jan‑2024 onward.
+6. Q: What is the penalty for premature withdrawal of a fixed deposit with a tenure of 2 to 5 years? | A: 1.25 % of principal
+7. Q: What is the interest rate for a fixed deposit with a tenure of 1 to 2 years? | A: 5.00 % – 5.50 % p.a.
+8. Q: What is the annual fee for the NovaPrime metal debit card and when is it waived? | A: ₹1,200 annual fee, waived on ≥ ₹10 Lakh ADB
+9. Q: What monthly credit amount is required to waive the minimum balance for a NovaSavings Account? | A: Monthly credit ≥ ₹10,000 (salary, pension, or regular credit)
+10. Q: What is the maximum overdraft facility available for a NovaPrime Savings Account? | A: ₹1 Lakh at 10.5 % p.a.
+11. Q: What is the minimum balance penalty for a NovaSavings account if my balance is below ₹5,000? | A: ₹500 per month
+12. Q: How many free ATM withdrawals can I make at my own NovaBankk ATM per month on a NovaSavings account? | A: First 5 withdrawals free per month
+13. Q: What is the fee for an IMPS transfer from a NovaPrime Savings account? | A: Unlimited free via mobile app
+14. Q: What is the fee for a demand draft to another bank from a NovaSavings account? | A: ₹50 per DD (up to ₹5,000)
+15. Q: What is the premature withdrawal penalty for a NovaFixed Deposit? | A: 0.5 % of the interest accrued (or ₹500, whichever is higher)
+16. Q: What is the processing fee for a NovaPersonal Loan? | A: 1 % of loan amount, capped at ₹5,000
+17. Q: What is the annual fee for a NovaCreditCard Classic and when is it waived? | A: ₹1,200, waived on spending ≥ ₹1 Lakh in a calendar year
+18. Q: How many free ATM withdrawals are allowed at other bank ATMs for a NovaPrime Savings account? | A: None; ₹20 per transaction
+19. Q: What is the fee for a paper account statement for a NovaPrime Savings account? | A: ₹15 per statement
+20. Q: What is the SMS alert fee for a NovaSavings account? | A: Free for all customers from Jan‑2024 onward (previously ₹5/month)
 21. Q: What is the minimum initial deposit required for a regular resident NovaSavings account? | A: ₹5,000
-22. Q: Can a 16‑year‑old open a NovaSavings account? | A: Yes, a 16‑year‑old can open a Minor Savings Account with a guardian’s consent.
-23. Q: What documents are required for an NRI to open a NovaSavings NRI account? | A: Passport, OCI/PIO card (if applicable), PAN Card, overseas address proof, and an NRE/NRO bank statement.
+22. Q: Can a 16‑year‑old open a NovaSavings account? | A: Yes, a 16‑year‑old can open a Minor Savings Account with a guardian's consent
+23. Q: What documents are required for an NRI to open a NovaSavings NRI account? | A: Passport, OCI/PIO card (if applicable), PAN Card, overseas address proof, and an NRE/NRO bank statement
 24. Q: What is the minimum monthly average balance required for a NovaPrime Savings account? | A: ₹50,000
-25. Q: What is the minimum annual taxable income for a salaried individual to qualify for NovaPrime? | A: ₹6 Lakhs
-26. Q: Is a NRI eligible for NovaPrime Savings? | A: No, only resident Indians are eligible for NovaPrime.
+25. Q: What is the minimum annual taxable income for a salaried individual to qualify for NovaPrime? | A: ₹6 Lakhs
+26. Q: Is an NRI eligible for NovaPrime Savings? | A: No, only resident Indians are eligible for NovaPrime
 27. Q: What is the minimum deposit amount for an individual NovaFixed Deposit? | A: ₹10,000
 28. Q: What is the minimum deposit amount for an NRI NovaFD? | A: ₹25,000
-29. Q: What is the interest rate for a 5‑year tenure on a NovaFD for a senior citizen? | A: 6.75% p.a. for a 5‑year tenure, plus an additional 0.5% for senior citizens.
-30. Q: Can a joint NovaFD be opened with a spouse? | A: Yes, a joint NovaFD can be opened with up to 2 individuals (spouse, parent, sibling) provided both meet the age and KYC requirements.
+29. Q: What is the interest rate for a 5‑year tenure NovaFD for a senior citizen? | A: 6.50 % – 7.00 % p.a. + 0.25 % senior citizen bonus = effectively 6.75 % – 7.25 % p.a.
+30. Q: Can a joint NovaFD be opened with a spouse? | A: Yes, a joint NovaFD can be opened with up to 2 individuals (spouse, parent, or sibling) provided both meet age and KYC requirements
+
+--- NEW QUESTIONS (31–60) ---
+
+-- Home Loan --
+31. Q: What is the interest rate range for a NovaHome Loan (floating rate)? | A: 8.50 % – 10.00 % p.a. (linked to RBI Repo Rate)
+32. Q: What is the maximum LTV ratio for a NovaHome Loan on a property worth ₹60 Lakh? | A: Up to 80 % (since property value is ≤ ₹75 Lakh)
+33. Q: What is the processing fee for a NovaHome Loan? | A: 0.5 % of loan amount, minimum ₹5,000, maximum ₹25,000
+34. Q: Is there a prepayment charge on a floating‑rate NovaHome Loan? | A: No, prepayment is free for floating‑rate home loans as per RBI guidelines
+35. Q: What is the maximum tenure for a NovaHome Loan? | A: Up to 30 years (loan must be fully repaid by borrower's age 70)
+36. Q: Under which Income Tax sections can NovaHome Loan borrowers claim tax benefits? | A: Principal repayment under Section 80C (up to ₹1.5 Lakh); interest under Section 24(b) (up to ₹2 Lakh for self‑occupied property)
+37. Q: What is the minimum CIBIL score required for a NovaHome Loan? | A: 700 (680–699 eligible at a higher interest margin)
+
+-- Current Account --
+38. Q: Does a NovaCurrent Account earn interest on the credit balance? | A: No, current accounts earn 0 % interest as per RBI guidelines
+39. Q: What is the minimum average monthly balance (AMB) for a regular NovaCurrent Account? | A: ₹25,000
+40. Q: What is the penalty for non‑maintenance of AMB in a NovaCurrent Account? | A: ₹1,000 per month for Regular; ₹2,500 per month for NovaCurrentPrime
+41. Q: What is the free cash deposit limit per month for a NovaCurrentPrime account? | A: Free up to ₹20 Lakh per month (₹2 per ₹1,000 thereafter)
+42. Q: What is the daily online transaction limit for a NovaCurrentPrime account? | A: ₹25 Lakh per day
+
+-- Senior Citizen Savings --
+43. Q: What is the minimum balance requirement for a NovaSenior Citizen Savings Account? | A: ₹1,000 (no penalty for non‑maintenance)
+44. Q: What extra interest rate do senior citizens earn on the NovaSenior Savings Account compared to standard NovaSavings? | A: An additional 0.50 % p.a. bonus over the standard rate
+45. Q: How many free ATM withdrawals do senior citizens get at other bank ATMs per month? | A: 5 free transactions per month at other bank ATMs
+46. Q: Is there an annual fee for the debit card issued with the NovaSenior Savings Account? | A: No, debit card issuance and annual fee are both waived for senior citizens
+
+-- Minor Savings Account --
+47. Q: What is the minimum age to open a NovaMinor Savings Account? | A: 7 years
+48. Q: What is the daily ATM withdrawal limit on a NovaMinor Savings Account debit card? | A: ₹2,000 per day (no international usage)
+49. Q: What happens to a NovaMinor Savings Account when the holder turns 18? | A: The account is frozen for fresh KYC; post‑KYC, it is converted to a regular NovaSavings Account within 7 working days
+50. Q: What is the minimum balance for a NovaMinor Savings Account? | A: ₹500 (no penalty for non‑maintenance)
+
+-- NRI Accounts --
+51. Q: Is interest earned on an NRE account taxable in India? | A: No, interest on NRE accounts is tax‑free in India
+52. Q: What is the TDS rate on interest earned in an NRO account? | A: 30 % (unless reduced under a Double Taxation Avoidance Agreement / DTAA)
+53. Q: What is the maximum amount that can be repatriated from an NRO account per financial year? | A: Up to USD 1 Million per FY, after applicable taxes and FEMA declarations
+54. Q: Can a resident Indian be a joint holder in an NRE account? | A: Yes, but only as the second (non‑operating) holder
+
+-- Forex Card --
+55. Q: How many currencies does the NovaForex Card support? | A: 9 currencies: USD, EUR, GBP, AED, SGD, AUD, CAD, JPY, CHF
+56. Q: What is the maximum amount that can be loaded on a NovaForex Card per financial year? | A: USD 2,50,000 equivalent (per RBI Liberalised Remittance Scheme / LRS limit)
+57. Q: Is the NovaForex Card valid for transactions in Nepal and Bhutan? | A: No, it is not valid in Nepal and Bhutan (INR is legal tender in both countries)
+58. Q: How long does an unused balance on a NovaForex Card remain eligible for refund after return from travel? | A: Within 180 days of return from travel
+
+-- General Banking & DICGC --
+59. Q: Up to what amount are deposits at NovaBank insured under DICGC? | A: Up to ₹5 Lakh per depositor per bank
+60. Q: After how many months of inactivity does a NovaSavings account become dormant? | A: After 24 months of no transactions (it becomes Inactive at 12 months, Dormant at 24 months)

@@ -1,4 +1,4 @@
-**NovaBankk – 2024 Retail‑Banking Fee Schedule**  
+**NovaBank – 2024 Retail‑Banking Fee Schedule**  
 *(All amounts are in Indian Rupees (INR) and are inclusive of applicable GST where required.)*  
 
 ---
@@ -7,17 +7,24 @@
 
 | Fee / Service | Standard Charge | Waiver / Discount Conditions |
 |---------------|----------------|------------------------------|
-| **Minimum Balance Penalty** | ₹500 per month (if balance < ₹5,000) | Waived if average monthly balance ≥ ₹5,000 |
-| **ATM Withdrawal – Own NovaBankk ATM** | First 5 withdrawals free / month; thereafter **₹20** per transaction | Free for senior citizens (≥ 60 y) |
-| **ATM Withdrawal – Other Bank ATM** | **₹25** per transaction | Free up to 2 transactions per month for “NovaSavings Plus” customers |
+| **Minimum Balance Penalty** | ₹500 per month (if balance < ₹5,000) | Waived if average monthly balance ≥ ₹5,000 |
+| **ATM Withdrawal – Own NovaBankk ATM** | First 5 withdrawals free / month; thereafter **₹20** per transaction | Free for senior citizens (≥ 60 y) |
+| **ATM Withdrawal – Other Bank ATM** | **₹25** per transaction | Free up to 2 transactions per month for "NovaSavings Plus" customers |
 | **NEFT Transfer (outward)** | Up to 5 transactions free / month; thereafter **₹2.50** per transaction | Free for online banking users (no‑fee tier) |
-| **RTGS Transfer (outward)** | **₹25** per transaction | Waived for transfers above ₹1 Lakh |
+| **RTGS Transfer (outward)** | **₹25** per transaction | Waived for transfers above ₹1 Lakh |
 | **IMPS Transfer (outward)** | **₹5** per transaction | Free for mobile‑banking app users (up to 10 per month) |
+| **UPI Transfer** | **₹0** (free, unlimited) | – |
 | **Cheque Book (first issue)** | **₹150** (3 leaves) | Free on opening a NovaSavings Plus account |
-| **Demand Draft (DD) – Same Bank** | **₹30** per DD (up to ₹5 000) | Waived for premium customers |
-| **Demand Draft – Other Bank** | **₹50** per DD (up to ₹5 000) | – |
+| **Demand Draft (DD) – Same Bank** | **₹30** per DD (up to ₹5,000) | Waived for premium customers |
+| **Demand Draft – Other Bank** | **₹50** per DD (up to ₹5,000) | – |
 | **Account Statement (paper copy)** | **₹20** per statement (monthly) | Free for e‑statements (email/portal) |
 | **SMS Alerts** | **₹5** per month (up to 100 alerts) | Free for all customers (unlimited) from Jan‑2024 onward |
+| **Debit Card – Annual Fee** | **₹200** per year | Waived if ≥ 12 debit card transactions per year |
+| **Debit Card – Replacement (lost/damaged)** | **₹250** per card | First replacement free per year |
+| **Account Closure (within 6 months of opening)** | **₹500** | Waived if account closed due to bank error |
+| **Cheque Bounce (outward)** | **₹300** per cheque + GST | – |
+| **Stop Payment on Cheque** | **₹200** per request | – |
+| **Passbook Reprint** | **₹50** per reprint | First reprint per year free |
 
 ---
 
@@ -25,99 +32,199 @@
 
 | Fee / Service | Standard Charge | Waiver / Discount Conditions |
 |---------------|----------------|------------------------------|
-| **Minimum Balance Penalty** | **₹0** (no penalty – minimum balance ₹10 000) | – |
+| **Minimum Balance Penalty** | **₹0** (no penalty – minimum balance ₹10,000) | – |
 | **ATM Withdrawal – Own ATM** | First 10 withdrawals free / month; thereafter **₹15** per transaction | – |
 | **ATM Withdrawal – Other Bank ATM** | **₹20** per transaction | – |
 | **NEFT Transfer** | Unlimited free (online & branch) | – |
-| **RTGS Transfer** | **₹20** per transaction | Waived for amounts ≥ ₹2 Lakh |
+| **RTGS Transfer** | **₹20** per transaction | Waived for amounts ≥ ₹2 Lakh |
 | **IMPS Transfer** | Unlimited free (mobile app) | – |
+| **UPI Transfer** | **₹0** (free, unlimited) | – |
 | **Cheque Book (first issue)** | **₹100** (5 leaves) | Free on account opening |
 | **Demand Draft – Same Bank** | **₹25** per DD | Free for up to 2 DDs per month |
 | **Demand Draft – Other Bank** | **₹45** per DD | – |
 | **Account Statement (paper copy)** | **₹15** per statement | Free for e‑statement |
 | **SMS Alerts** | **₹0** (unlimited) | – |
+| **Debit Card – Annual Fee** | **₹500** per year (premium metal card) | Waived if ADB ≥ ₹10 Lakh |
+| **Debit Card – Replacement** | **₹250** per card | Free (unlimited) for NovaPrime holders |
+| **Locker – 1 ft × 1 ft (Silver)** | **₹2,500** per month | 10% discount for NovaPrime holders |
 
 ---
 
-## 3️⃣ NovaFixed Deposit  
+## 3️⃣ NovaCurrent Account  
+
+| Fee / Service | Regular | NovaCurrentPrime |
+|---------------|---------|-----------------|
+| **Minimum Balance Penalty** | **₹1,000** per month (if AMB < ₹25,000) | **₹2,500** per month (if AMB < ₹1 Lakh) |
+| **NEFT Transfer (outward)** | First 20 free / month; thereafter ₹5/txn | Unlimited free |
+| **RTGS Transfer (outward)** | **₹25** per transaction | **₹15** per transaction |
+| **IMPS Transfer** | **₹10** per transaction | Unlimited free |
+| **UPI Transfer** | Free (unlimited) | Free (unlimited) |
+| **Cheque Book** | **₹200** per 25 leaves | **₹100** per 50 leaves |
+| **DD – Same Bank** | **₹40** per DD | **₹20** per DD |
+| **DD – Other Bank** | **₹60** per DD | **₹40** per DD |
+| **Cash Deposit (Branch)** | Free up to ₹5 Lakh/month; ₹2 per ₹1,000 thereafter | Free up to ₹20 Lakh/month |
+| **Cash Withdrawal (Branch)** | Free up to ₹2 Lakh/month; ₹2 per ₹1,000 thereafter | Free up to ₹10 Lakh/month |
+| **Account Statement (paper)** | **₹30** per statement | **₹0** |
+| **Outstation Cheque Collection** | **₹50** per cheque | **₹25** per cheque |
+| **Account Maintenance Fee (Annual)** | **₹1,200** | **₹2,500** |
+
+---
+
+## 4️⃣ NovaFixed Deposit  
 
 | Fee / Service | Standard Charge |
 |---------------|-----------------|
-| **Premature Withdrawal Penalty** | **0.5 %** of the interest accrued (or ₹500, whichever is higher) |
+| **Premature Withdrawal Penalty** | **0.5 %** of the interest accrued (or ₹500, whichever is higher) |
 | **Duplicate Certificate (re‑issue)** | **₹200** per copy (plus postage) |
 | **Nomination Change (post‑opening)** | **₹150** per request |
 | **Account Closure (after maturity)** | **₹0** (free) |
+| **Loan Against FD – Processing Fee** | **₹500** per loan sanctioned |
+| **Auto‑Renewal Setup** | **₹0** (free) |
+| **Interest Certificate (for IT filing)** | **₹0** (free via net‑banking); **₹50** paper copy |
 
 ---
 
-## 4️⃣ NovaPersonal Loan  
+## 5️⃣ NovaRecurring Deposit  
 
 | Fee / Service | Standard Charge |
 |---------------|-----------------|
-| **Processing Fee** | **1 %** of loan amount (capped at **₹5,000**) – deducted from disbursement |
-| **Pre‑payment Charges** | **0.5 %** of the outstanding principal if prepaid within 12 months; **0 %** thereafter |
-| **Late Payment Penalty** | **₹500** + **2 %** per month on overdue amount |
+| **Missed Instalment Penalty** | **₹100** per missed month |
+| **Premature Closure Penalty** | **1 %** of total deposited amount + loss of accrued interest |
+| **Account Closure (after maturity)** | **₹0** (free) |
+| **Standing Instruction Setup** | **₹0** (free) |
+| **Duplicate Passbook** | **₹50** per reprint |
+
+---
+
+## 6️⃣ NovaPersonal Loan  
+
+| Fee / Service | Standard Charge |
+|---------------|-----------------|
+| **Processing Fee** | **1 %** of loan amount (capped at **₹5,000**) – deducted from disbursement |
+| **Pre‑payment Charges** | **0.5 %** of the outstanding principal if prepaid within 12 months; **0 %** thereafter |
+| **Late Payment Penalty** | **₹500** + **2 %** per month on overdue amount |
 | **EMI Bounce Charge** | **₹300** per bounced transaction (plus any bank levy) |
 | **Loan Statement (paper copy)** | **₹30** per statement (monthly) – free as e‑statement |
+| **NOC / Closure Certificate** | **₹0** (free) – issued within 7 working days of full repayment |
+| **Repayment Schedule Reprint** | **₹50** per copy |
+| **Loan Restructuring Fee** | **₹1,500** per request (subject to credit appraisal) |
 
 ---
 
-## 5️⃣ NovaCreditCard Classic  
+## 7️⃣ NovaHome Loan  
 
 | Fee / Service | Standard Charge |
 |---------------|-----------------|
-| **Annual Fee** | **₹1,200** (waived on spending ≥ ₹1 Lakh in a calendar year) |
+| **Processing Fee** | **0.5 %** of loan amount (min ₹5,000, max ₹25,000) |
+| **Legal / Technical Verification Fee** | **₹5,000** (one‑time, non‑refundable) |
+| **Pre‑payment / Part‑payment Charges** | **₹0** for floating‑rate loans (as per RBI guidelines). Fixed‑rate: **2 %** of amount prepaid. |
+| **Late Payment Penalty** | **2 %** per month on overdue EMI |
+| **EMI Bounce Charge** | **₹500** per bounced transaction |
+| **MODT (Mortgage Deed of Trust) Charges** | **0.1 %** of loan amount (state stamp duty – actual rates vary by state) |
+| **NOC / Foreclosure Letter** | **₹0** (free) – issued within 21 working days |
+| **Property Documents Retrieval (post-closure)** | **₹500** (courier charges extra) |
+| **Interest Certificate (annual)** | **₹0** via net‑banking; **₹100** paper copy |
+| **Loan Statement** | **₹0** via net‑banking; **₹50** paper copy |
+| **Rate Change (from fixed to floating)** | **₹2,000** per request |
+
+---
+
+## 8️⃣ NovaCreditCard Classic  
+
+| Fee / Service | Standard Charge |
+|---------------|-----------------|
+| **Annual Fee** | **₹1,200** (waived on spending ≥ ₹1 Lakh in a calendar year) |
 | **Joining / Issuance Fee** | **₹500** (one‑time) – waived for existing NovaBankk customers |
-| **Late Payment Fee** | **₹1,000** or **2 %** of outstanding amount (whichever is higher) |
+| **Late Payment Fee** | **₹1,000** or **2 %** of outstanding amount (whichever is higher) |
 | **Over‑limit Fee** | **₹500** per occurrence |
-| **Cash Advance Fee** | **2 %** of cash‑advance amount (minimum **₹500**) |
-| **Forex Mark‑up** | **3.5 %** of transaction amount (on card‑present and online foreign‑currency purchases) |
+| **Cash Advance Fee** | **2 %** of cash‑advance amount (minimum **₹500**) |
+| **Forex Mark‑up** | **3.5 %** of transaction amount (on card‑present and online foreign‑currency purchases) |
 | **Reward Redemption Fee** | **₹0** for redemption via statement credit; **₹100** for gift‑voucher conversion |
 | **Card Replacement (lost/stolen)** | **₹250** (standard) – free for the first replacement in a year |
 | **Paper‑statement Fee** | **₹50** per month (free as e‑statement) |
+| **EMI Conversion Fee** | **₹199** per request (waived for transactions > ₹10,000) |
+| **Credit Limit Enhancement** | **₹0** (free, subject to credit appraisal) |
 
 ---
 
-## 6️⃣ NovaCreditCard Platinum (Premium Tier)  
+## 9️⃣ NovaCreditCard Platinum (Premium Tier)  
 
 | Fee / Service | Standard Charge |
 |---------------|-----------------|
-| **Annual Fee** | **₹5,000** (waived on spending ≥ ₹5 Lakh in a calendar year) |
+| **Annual Fee** | **₹5,000** (waived on spending ≥ ₹5 Lakh in a calendar year) |
 | **Joining / Issuance Fee** | **₹1,000** (waived for NovaPrime Savings holders) |
-| **Late Payment Fee** | **₹1,500** or **2 %** of outstanding amount (whichever is higher) |
+| **Late Payment Fee** | **₹1,500** or **2 %** of outstanding amount (whichever is higher) |
 | **Over‑limit Fee** | **₹750** per occurrence |
-| **Cash Advance Fee** | **1.5 %** of cash‑advance amount (minimum **₹500**) |
-| **Forex Mark‑up** | **2.5 %** of transaction amount |
+| **Cash Advance Fee** | **1.5 %** of cash‑advance amount (minimum **₹500**) |
+| **Forex Mark‑up** | **2.5 %** of transaction amount |
 | **Reward Redemption Fee** | **₹0** for all redemption modes (statement credit, travel, gifts) |
 | **Complimentary Airport Lounge Access** | **5** free accesses per year (additional **₹1,200** per visit) |
 | **Card Replacement (lost/stolen)** | **Free** (unlimited) |
 | **Paper‑statement Fee** | **₹0** (all statements electronic) |
+| **EMI Conversion Fee** | **₹0** (free, unlimited) |
+| **Add‑on Card (spouse / family)** | **₹0** (free, up to 3 add‑on cards) |
 
 ---
 
-## 7️⃣ General Banking Services  
+## 🔟 NovaSenior Citizen Savings Account  
+
+| Fee / Service | Standard Charge |
+|---------------|-----------------|
+| **Minimum Balance Penalty** | **₹0** (no penalty) |
+| **ATM Withdrawal – Own ATM** | **Unlimited free** |
+| **ATM Withdrawal – Other Bank ATM** | Free up to **5 transactions/month**; thereafter ₹20 per transaction |
+| **Cheque Book** | **Free** (25 leaves/year) |
+| **Paper Statement (monthly)** | **₹0** (free) |
+| **NEFT / IMPS / UPI** | **Free** (unlimited) |
+| **Debit Card Annual Fee** | **₹0** (waived for all senior citizens) |
+
+---
+
+## 1️⃣1️⃣ NovaMinor Savings Account  
+
+| Fee / Service | Standard Charge |
+|---------------|-----------------|
+| **Account Opening Fee** | **₹0** (free) |
+| **Minimum Balance Penalty** | **₹0** (no penalty) |
+| **ATM Withdrawal – Own ATM** | Free up to **3 transactions/month**; thereafter ₹20 per transaction |
+| **ATM Card Annual Fee** | **₹100** per year |
+| **Paper Statement** | **₹0** (free) |
+| **Account Conversion (on turning 18)** | **₹0** (free) |
+
+---
+
+## 1️⃣2️⃣ General Banking Services  
 
 | Service | Standard Charge |
 |---------|-----------------|
-| **Locker – 1 ft × 1 ft (Silver)** | **₹2,500** per month (incl. GST) |
-| **Locker – 2 ft × 2 ft (Gold)** | **₹5,000** per month |
-| **Locker – 3 ft × 3 ft (Platinum)** | **₹8,000** per month |
+| **Locker – 1 ft × 1 ft (Silver)** | **₹2,500** per month (incl. GST) |
+| **Locker – 2 ft × 2 ft (Gold)** | **₹5,000** per month |
+| **Locker – 3 ft × 3 ft (Platinum)** | **₹8,000** per month |
 | **KYC Update / Document Verification** | **₹0** (free) – only postage if physical documents are mailed |
 | **NACH Mandate Setup (one‑time)** | **₹100** (waived for existing NovaBankk customers) |
 | **NACH Mandate Amendment / Cancellation** | **₹50** per request |
 | **Cheque Bounce (outward)** | **₹150** per cheque (plus GST) |
 | **Stop‑payment on Cheque** | **₹200** per request |
+| **Fund Transfer (NEFT/IMPS/UPI) via Branch** | **₹50** per transaction (free via mobile/internet banking) |
+| **Bank Certificate / Balance Confirmation Letter** | **₹200** per certificate |
+| **PIN Regeneration (Debit Card)** | **₹0** via mobile app; **₹50** at branch |
+| **Internet Banking Registration** | **₹0** (free) |
+| **Mobile Banking Registration** | **₹0** (free) |
+| **Duplicate PAN Update** | **₹0** (free) |
+| **Forex Card – Issuance** | **₹250** per card |
+| **Forex Card – Reload** | **₹100** per reload (up to USD 10,000 equivalent) |
 
 ---
 
 ### Notes & Assumptions  
 
 * All fees are **subject to change with a 30‑day notice** as per RBI guidelines.  
-* GST (currently 18 %) is **included** in the amounts shown unless stated otherwise.  
-* Senior citizens (≥ 60 years) enjoy additional waivers on ATM withdrawals and certain fees.  
-* “Premium” customers (NovaPrime Savings, NovaCreditCard Platinum) receive the listed waivers automatically upon meeting the product‑specific eligibility criteria.  
-* The fee schedule reflects typical Indian‑bank pricing in **FY 2024‑25** and is intended for illustrative purposes only.  
+* GST (currently 18 %) is **included** in the amounts shown unless stated otherwise.  
+* Senior citizens (≥ 60 years) enjoy additional waivers on ATM withdrawals and certain fees.  
+* "Premium" customers (NovaPrime Savings, NovaCreditCard Platinum) receive the listed waivers automatically upon meeting the product‑specific eligibility criteria.  
+* Mobile/internet banking transactions attract **zero fees** for most standard services; branch transactions may carry a nominal charge.  
+* The fee schedule reflects typical Indian‑bank pricing in **FY 2024‑25** and is intended for illustrative purposes only.  
 
 ---  
 
-**End of NovaBankk Fee Schedule**. Feel free to ask if you need any clarifications or a printable PDF version!
+**End of NovaBank Fee Schedule**. For queries, contact our helpline at 1800‑XXX‑NOVA or visit your nearest NovaBank branch.

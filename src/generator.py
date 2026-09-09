@@ -36,13 +36,21 @@ def check_retrieval_confidence(scores: List[float]) -> bool:
     return scores[0] >= CONFIDENCE_THRESHOLD
 
 
-def generate_answer(query: str, retrieved_chunks: List[Chunk], top_n: int = 3) -> str:
+def generate_answer(query: str, retrieved_chunks: List[Chunk], top_n: int = 3,
+                    conversation: str = "") -> str:
     context_str = "\n\n".join([
         f"[Source: {c.chunk_id}]\n{c.text}"
         for c in retrieved_chunks[:top_n]
     ])
 
+    conv_section = (
+        f"Previous conversation (use it to resolve references like 'that premium variant'):\n"
+        f"{conversation}\n\n"
+        if conversation else ""
+    )
+
     user_prompt = (
+        f"{conv_section}"
         f"Context (use ONLY this — no outside knowledge):\n{context_str}\n\n"
         f"Customer Question: {query}\n\n"
         f"Answer (cite every claim as [Source: chunk_id]):"

@@ -10,7 +10,8 @@ from src.generator import (
 
 
 def rag_pipeline(query: str, chunks, faiss_index, bm25,
-                 top_n: int = 5, verbose: bool = True) -> dict:
+                 top_n: int = 5, verbose: bool = True,
+                 conversation: str = "") -> dict:
     start = time.time()
 
     intent = classify_intent(query)
@@ -42,7 +43,7 @@ def rag_pipeline(query: str, chunks, faiss_index, bm25,
             "latency_ms": round((time.time() - start) * 1000, 2)
         }
 
-    answer = generate_answer(query, retrieved, top_n=3)
+    answer = generate_answer(query, retrieved, top_n=3, conversation=conversation)
 
     return {
         "query": query, "answer": answer, "intent": intent,

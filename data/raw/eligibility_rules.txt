@@ -7,7 +7,7 @@ All figures are expressed in Indian Rupees (INR) and follow the typical regulato
 
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
-| **Age** | 18 – 70 years (Minors 7‑17 can open a **Minor Savings Account** with a guardian’s consent) |
+| **Age** | 18 – 70 years (Minors 7‑17 can open a **Minor Savings Account** with a guardian's consent) |
 | **Resident Status** | Indian Resident (as per RBI definition). NRI can open a **NovaSavings NRI Account** (see NRI column). |
 | **KYC Documents** | • **Resident:** PAN Card, Aadhaar (or Voter ID/Passport), Proof of Address (Utility bill, bank statement, or passport) <br>• **NRI:** Passport, OCI/PIO card (if applicable), PAN Card, overseas address proof, and a **NRE/NRO** bank statement. |
 | **Initial Deposit** | Minimum **₹5,000** for a regular resident account. <br>**₹10,000** for a joint account. <br>**₹15,000** for an NRI account (NRE/NRO). |
@@ -22,7 +22,7 @@ All figures are expressed in Indian Rupees (INR) and follow the typical regulato
 | Proof of Address | ✔ (Utility bill, etc.) | ✔ (Overseas address proof + Indian address proof) |
 | Photograph (2×2 cm) | ✔ | ✔ |
 | Income proof (optional) | ✖ (not required) | ✔ (Salary slip/ITR for NRI) |
-| Guardian’s ID (for minors) | ✔ | ✔ (if minor NRI) |
+| Guardian's ID (for minors) | ✔ | ✔ (if minor NRI) |
 
 ---
 
@@ -33,8 +33,8 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
 | **Minimum Monthly Average Balance (MAB)** | **₹50,000** (maintained across the month) |
-| **Age** | 21 – 65 years |
-| **Salary / Income Proof** | • **Salaried:** Minimum **₹6 Lakhs** annual taxable income (salary slips for last 3 months + Form 16). <br>• **Self‑Employed / Professional:** Minimum **₹8 Lakhs** annual net income (ITR for last 2 FYs + profit & loss statement). |
+| **Age** | 21 – 65 years |
+| **Salary / Income Proof** | • **Salaried:** Minimum **₹6 Lakhs** annual taxable income (salary slips for last 3 months + Form 16). <br>• **Self‑Employed / Professional:** Minimum **₹8 Lakhs** annual net income (ITR for last 2 FYs + profit & loss statement). |
 | **Resident Status** | Resident Indian only (NRI not eligible for NovaPrime). |
 | **KYC** | Same as NovaSavings (PAN + Aadhaar + POA). |
 | **Other** | Must not have any active defaulted loan/overdraft with NovaBank. |
@@ -45,7 +45,7 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 |----------|-------------|
 | PAN Card | Mandatory |
 | Aadhaar Card | Mandatory |
-| Recent Passport‑size Photo | 2×2 cm |
+| Recent Passport‑size Photo | 2×2 cm |
 | Salary Slips (last 3 months) **or** ITR (last 2 FYs) | For income verification |
 | Form 16 (if salaried) | Shows TDS & taxable income |
 | Bank Statements (last 3 months) | To verify MAB |
@@ -53,14 +53,45 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 
 ---
 
-## 3. NovaFixed Deposit (FD)  
+## 3. NovaCurrent Account  
+
+Designed for businesses, traders, and self‑employed professionals requiring high‑volume transactions.
+
+| **Eligibility Parameter** | **Requirement** |
+|---------------------------|-----------------|
+| **Account Type** | Sole Proprietorship, Partnership, Private/Public Limited Company, LLP, Trust, Society |
+| **Age of Proprietor/Director** | 21 – 70 years |
+| **Minimum Average Monthly Balance (AMB)** | **₹25,000** (Regular) / **₹1 Lakh** (NovaCurrentPrime) |
+| **KYC – Individual (Proprietor)** | PAN Card, Aadhaar, Proof of Address |
+| **KYC – Business Entity** | Certificate of Incorporation, MOA/AOA (for companies), Partnership Deed (for firms), GST Registration Certificate, Trade License |
+| **Initial Deposit** | **₹25,000** (Regular) / **₹1 Lakh** (NovaCurrentPrime) |
+| **Resident Status** | Indian Resident / Registered Indian Entity |
+| **Other** | No prior RBI blacklisting; active GST registration preferred for business accounts |
+
+**Documents Required**
+
+| Document | Proprietorship | Company / LLP |
+|----------|---------------|---------------|
+| PAN Card (Entity + Owner) | ✔ | ✔ |
+| Aadhaar (Proprietor/Directors) | ✔ | ✔ |
+| Certificate of Incorporation | ✖ | ✔ |
+| MOA / AOA | ✖ | ✔ (Companies) |
+| Partnership Deed | ✔ (if partnership) | ✖ |
+| GST Registration Certificate | ✔ | ✔ |
+| Trade License / Udyog Aadhaar | ✔ | ✔ |
+| Board Resolution (for companies) | ✖ | ✔ |
+| Photograph (Authorized Signatories) | ✔ | ✔ |
+
+---
+
+## 4. NovaFixed Deposit (FD)  
 
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
 | **Minimum Deposit Amount** | **₹10,000** for individual accounts. <br>**₹25,000** for joint accounts. |
-| **Age** | 18 – 70 years (Minors 7‑17 can open a **Minor FD** with a guardian’s consent). |
+| **Age** | 18 – 70 years (Minors 7‑17 can open a **Minor FD** with a guardian's consent). |
 | **Resident Status** | Resident Indian. NRI can open **NovaFD NRI (NRE/NRO)** – minimum **₹25,000**. |
-| **Tenure Options** | 7 days to 10 years (flexible). |
+| **Tenure Options** | 7 days to 10 years (flexible). |
 | **Joint Accounts** | Allowed for up to 2 individuals (spouse, parent, sibling). Both must meet age & KYC. |
 | **Interest Rate** | Market‑linked (e.g., 6.25% p.a. for 1‑year tenure, 6.75% for 5‑year). Rates may vary for senior citizens (+0.5%). |
 | **Other** | No pending loan defaults with NovaBank. |
@@ -72,20 +103,20 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 | PAN Card | ✔ | ✔ (guardian) | ✔ |
 | Aadhaar / Passport | ✔ (Aadhaar) | ✔ (Guardian Aadhaar) | ✔ (Passport) |
 | Proof of Address | ✔ | ✔ | ✔ |
-| Guardian’s ID & Birth Certificate (for minors) | ✖ | ✔ | ✖ |
+| Guardian's ID & Birth Certificate (for minors) | ✖ | ✔ | ✖ |
 | NRI Proof (overseas address, NRE/NRO bank statement) | ✖ | ✖ | ✔ |
-| Photograph (2×2 cm) | ✔ | ✔ | ✔ |
+| Photograph (2×2 cm) | ✔ | ✔ | ✔ |
 
 ---
 
-## 4. NovaRecurring Deposit (RD)  
+## 5. NovaRecurring Deposit (RD)  
 
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
 | **Minimum Monthly Installment** | **₹1,000** (individual) <br>**₹2,500** (joint) |
 | **Maximum Monthly Installment** | **₹5,00,000** (individual) |
-| **Tenure Options** | 6 months, 12 months, 24 months, 36 months, 48 months, 60 months (flexible). |
-| **Age** | 18 – 70 years (Minors 7‑17 allowed with guardian). |
+| **Tenure Options** | 6 months, 12 months, 24 months, 36 months, 48 months, 60 months (flexible). |
+| **Age** | 18 – 70 years (Minors 7‑17 allowed with guardian). |
 | **Resident Status** | Resident Indian only (NRI RD not offered). |
 | **Interest Rate** | 5.75% – 6.50% p.a. (higher for senior citizens +0.25%). |
 | **Maturity** | Automatic renewal possible; otherwise, lump‑sum payout at maturity. |
@@ -98,25 +129,25 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 | PAN Card | Mandatory |
 | Aadhaar Card | Mandatory |
 | Proof of Address | Utility bill, bank statement, etc. |
-| Photograph (2×2 cm) | Mandatory |
-| Guardian’s ID & Birth Certificate (for minors) | Required if account holder is a minor |
-| Salary Slip / ITR (optional) | Not mandatory but may be requested for high‑value RDs (>₹2 Lakhs/month) |
+| Photograph (2×2 cm) | Mandatory |
+| Guardian's ID & Birth Certificate (for minors) | Required if account holder is a minor |
+| Salary Slip / ITR (optional) | Not mandatory but may be requested for high‑value RDs (>₹2 Lakhs/month) |
 
 ---
 
-## 5. NovaPersonal Loan  
+## 6. NovaPersonal Loan  
 
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
-| **Age** | 21 – 60 years at loan disbursement. |
+| **Age** | 21 – 60 years at loan disbursement. |
 | **Employment Type** | • **Salaried (Private/Public)** <br>• **Self‑Employed / Professional** |
-| **Minimum Monthly Income** | • **Salaried:** ≥ **₹25,000** net monthly (≈ ₹3 Lakhs p.a.). <br>• **Self‑Employed:** ≥ **₹40,000** net monthly (≈ ₹5 Lakhs p.a.) with at least 2 years of continuous operation. |
+| **Minimum Monthly Income** | • **Salaried:** ≥ **₹25,000** net monthly (≈ ₹3 Lakhs p.a.). <br>• **Self‑Employed:** ≥ **₹40,000** net monthly (≈ ₹5 Lakhs p.a.) with at least 2 years of continuous operation. |
 | **Credit Score (CIBIL)** | Minimum **750** for standard pricing. **720–749** eligible with higher interest margin. |
-| **Employment Stability** | • Salaried: Minimum **12 months** continuous service with current employer (or 24 months if transferred within same group). <br>• Self‑Employed: Minimum **24 months** of GST returns/ITR filing. |
-| **FOIR (Fixed‑Obligation‑to‑Income Ratio)** | ≤ **45 %** (total existing EMIs + proposed loan EMI). |
-| **Maximum Loan Amount** | Up to **₹25 Lakhs** for salaried, **₹40 Lakhs** for self‑employed (subject to income & security). |
+| **Employment Stability** | • Salaried: Minimum **12 months** continuous service with current employer (or 24 months if transferred within same group). <br>• Self‑Employed: Minimum **24 months** of GST returns/ITR filing. |
+| **FOIR (Fixed‑Obligation‑to‑Income Ratio)** | ≤ **45 %** (total existing EMIs + proposed loan EMI). |
+| **Maximum Loan Amount** | Up to **₹25 Lakhs** for salaried, **₹40 Lakhs** for self‑employed (subject to income & security). |
 | **Residency** | Resident Indian. NRI personal loans are offered under a separate product (NovaNRI‑Loan). |
-| **Other** | No pending defaults with NovaBank or any other bank; no criminal record; property or guarantor may be required for high‑value loans (>₹20 Lakhs). |
+| **Other** | No pending defaults with NovaBank or any other bank; no criminal record; property or guarantor may be required for high‑value loans (>₹20 Lakhs). |
 
 **Documents Required**  
 
@@ -133,17 +164,54 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 | GST Returns (last 2 quarters) | ✖ | ✔ |
 | Business Proof (Trade license, Udyog Aadhar) | ✖ | ✔ |
 | Property Documents (if security required) | Optional | Optional |
-| Passport‑size Photos (2×2 cm) | ✔ | ✔ |
+| Passport‑size Photos (2×2 cm) | ✔ | ✔ |
 | CIBIL Report (latest) | ✔ (bank obtains) | ✔ |
 
 ---
 
-## 6. NovaCreditCard Classic  
+## 7. NovaHome Loan  
 
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
-| **Age** | 21 – 60 years |
-| **Minimum Annual Income** | **₹3 Lakhs** (≈ ₹25,000 monthly) for salaried; **₹5 Lakhs** for self‑employed (based on ITR). |
+| **Age** | 21 – 65 years at loan disbursement (loan must be fully repaid by age 70). |
+| **Employment Type** | Salaried (Private/Public/Government) or Self‑Employed / Professional |
+| **Minimum Monthly Income** | • **Salaried:** ≥ **₹35,000** net monthly. <br>• **Self‑Employed:** ≥ **₹50,000** net monthly with ≥ 3 years of ITR filing. |
+| **Credit Score (CIBIL)** | Minimum **700** for standard rates. **680–699** eligible with higher interest margin. |
+| **Loan Amount** | **₹5 Lakhs – ₹5 Crores** (subject to property value and income). |
+| **LTV (Loan‑to‑Value Ratio)** | Up to **80 %** of property value (≤ ₹75 Lakhs); up to **75 %** for property > ₹75 Lakhs. |
+| **FOIR** | ≤ **50 %** (including proposed EMI). |
+| **Employment Stability** | • Salaried: Minimum **2 years** with current employer or same group. <br>• Self‑Employed: Minimum **3 years** continuous business operation. |
+| **Residency** | Resident Indian. NRI Home Loans available under **NovaNRI HomeLoan** (separate product). |
+| **Property Type** | Residential property (under-construction, ready-to-move, resale, plot + construction). Commercial property not eligible under this product. |
+| **Other** | Property must be free of legal encumbrances; no existing default with any bank. |
+
+**Documents Required**  
+
+| Document | Salaried | Self‑Employed |
+|----------|----------|---------------|
+| PAN Card | ✔ | ✔ |
+| Aadhaar Card | ✔ | ✔ |
+| Proof of Address | ✔ | ✔ |
+| Salary Slips (last 3 months) | ✔ | ✖ |
+| Form 16 (last 2 FYs) | ✔ | ✖ |
+| ITR (last 3 FYs) | Optional | ✔ |
+| GST Returns (last 4 quarters) | ✖ | ✔ |
+| Bank Statements (last 12 months) | ✔ | ✔ |
+| Property Documents (Sale Deed, NOC, Approved Plan) | ✔ | ✔ |
+| Property Valuation Report (bank‑approved valuer) | ✔ | ✔ |
+| Employment Letter | ✔ | ✖ |
+| Business Proof (CA certificate, Trade License) | ✖ | ✔ |
+| CIBIL Report | ✔ (bank obtains) | ✔ |
+| Passport‑size Photos | ✔ | ✔ |
+
+---
+
+## 8. NovaCreditCard Classic  
+
+| **Eligibility Parameter** | **Requirement** |
+|---------------------------|-----------------|
+| **Age** | 21 – 60 years |
+| **Minimum Annual Income** | **₹3 Lakhs** (≈ ₹25,000 monthly) for salaried; **₹5 Lakhs** for self‑employed (based on ITR). |
 | **Credit Score (CIBIL)** | Minimum **720**. |
 | **Employment Type** | Salaried, Self‑Employed, or Professional (e.g., doctors, lawyers). |
 | **Residency** | Resident Indian (NRI version exists separately). |
@@ -159,24 +227,24 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 | Proof of Address | Utility bill, bank statement, etc. |
 | Salary Slip (last 3 months) **or** ITR (last 2 FYs) | Income verification |
 | Bank Statements (last 3 months) | To confirm relationship & balance |
-| Passport‑size Photo (2×2 cm) | Mandatory |
+| Passport‑size Photo (2×2 cm) | Mandatory |
 | Employment Letter (if requested) | Optional, for self‑employed |
 
 ---
 
-## 7. NovaCreditCard Platinum  
+## 9. NovaCreditCard Platinum  
 
 A premium credit‑card for high‑net‑worth individuals and long‑standing NovaBank customers.  
 
 | **Eligibility Parameter** | **Requirement** |
 |---------------------------|-----------------|
-| **Age** | 21 – 60 years |
-| **Minimum Annual Income** | **₹12 Lakhs** (≈ ₹1 Lakh monthly) for salaried; **₹18 Lakhs** for self‑employed (based on ITR). |
-| **Credit Score (CIBIL)** | Minimum **800** (or 780 + with a **NovaBank Relationship Score** ≥ 85). |
-| **Existing Relationship** | Must have at least **₹2 Lakhs** average annual balance across any NovaBank accounts (Savings, Current, Fixed Deposit) or have a **NovaPersonal Loan**/**NovaHome Loan** active for ≥ 2 years. |
+| **Age** | 21 – 60 years |
+| **Minimum Annual Income** | **₹12 Lakhs** (≈ ₹1 Lakh monthly) for salaried; **₹18 Lakhs** for self‑employed (based on ITR). |
+| **Credit Score (CIBIL)** | Minimum **800** (or 780 + with a **NovaBank Relationship Score** ≥ 85). |
+| **Existing Relationship** | Must have at least **₹2 Lakhs** average annual balance across any NovaBank accounts (Savings, Current, Fixed Deposit) or have a **NovaPersonal Loan**/**NovaHome Loan** active for ≥ 2 years. |
 | **Residency** | Resident Indian (NRI Platinum is a separate product). |
-| **Other** | No defaults in the last 12 months; total outstanding credit card limit across all banks ≤ **₹5 Lakhs**. |
-| **Annual Fee** | ₹2,500 (waived on spending ≥ ₹2 Lakhs per annum). |
+| **Other** | No defaults in the last 12 months; total outstanding credit card limit across all banks ≤ **₹5 Lakhs**. |
+| **Annual Fee** | ₹2,500 (waived on spending ≥ ₹2 Lakhs per annum). |
 
 **Documents Required**  
 
@@ -188,15 +256,100 @@ A premium credit‑card for high‑net‑worth individuals and long‑standing N
 | Salary Slip (last 3 months) **or** ITR (last 2 FYs) | Income verification |
 | Bank Statements (last 6 months) | To verify relationship & average balance |
 | Property/Asset Proof (optional) | May be requested for very high‑limit cards |
-| Passport‑size Photo (2×2 cm) | Mandatory |
+| Passport‑size Photo (2×2 cm) | Mandatory |
 | CIBIL Report (latest) | Bank obtains; must meet score threshold |
-| Employment Letter / Business Proof | If self‑employed, chartered accountant’s letter confirming income |
+| Employment Letter / Business Proof | If self‑employed, chartered accountant's letter confirming income |
+
+---
+
+## 10. NovaSenior Citizen Savings Account  
+
+Exclusively for Indian residents aged 60 years and above.
+
+| **Eligibility Parameter** | **Requirement** |
+|---------------------------|-----------------|
+| **Age** | **≥ 60 years** (proof of age mandatory) |
+| **Resident Status** | Resident Indian only |
+| **Initial Deposit** | **₹1,000** (no minimum balance penalty) |
+| **Interest Rate** | Standard NovaSavings rate + **0.50 % p.a.** bonus |
+| **KYC Documents** | PAN Card, Aadhaar, Age Proof (Birth Certificate, Passport, or Pension Card), Proof of Address |
+| **Other** | Nomination mandatory at account opening; pension/retirement credits accepted as regular credit. |
+
+**Benefits Over Standard NovaSavings**
+- Free unlimited ATM withdrawals at all NovaBankk ATMs
+- Free cheque book (25 leaves/year)
+- Free paper statements (monthly)
+- Priority queue service at all branches
+- Dedicated senior‑citizen helpline: 1800‑XXX‑SENIOR
+
+---
+
+## 11. NovaMinor Savings Account  
+
+For minors between ages 7 and 17, operated by a natural/legal guardian.
+
+| **Eligibility Parameter** | **Requirement** |
+|---------------------------|-----------------|
+| **Age of Minor** | 7 – 17 years |
+| **Guardian** | Natural parent or court‑appointed legal guardian (must be a Resident Indian, 18+ years) |
+| **Initial Deposit** | **₹500** |
+| **Minimum Balance** | **₹500** (no penalty if balance falls below, but account may be frozen) |
+| **ATM / Debit Card** | Issued with a **₹2,000/day** withdrawal limit; no international usage |
+| **Conversion** | Account automatically converts to a regular NovaSavings Account when the minor turns **18**, subject to fresh KYC |
+
+**Documents Required**
+
+| Document | Required By |
+|----------|------------|
+| Minor's Birth Certificate or School ID | Minor |
+| Guardian's PAN Card | Guardian |
+| Guardian's Aadhaar | Guardian |
+| Guardian's Proof of Address | Guardian |
+| Relationship Proof (Birth Certificate, Court Order) | Guardian |
+| Photograph (Minor + Guardian) | Both |
+
+---
+
+## 12. NovaNRI Services  
+
+| **Service / Account** | **NRE Account** | **NRO Account** |
+|----------------------|-----------------|-----------------|
+| **Purpose** | Parking foreign earnings in India (fully repatriable) | Managing India‑sourced income (rent, dividends, etc.) |
+| **Currency** | INR (converted at inward remittance rate) | INR |
+| **Repatriability** | Fully repatriable (principal + interest) | Restricted – up to **USD 1 Million** per FY (after taxes) |
+| **Interest Rate** | Same as NovaFD/NovaSavings rates; **tax‑free** in India | Taxable in India (TDS applicable) |
+| **Joint Holding** | With another NRI or resident Indian (resident as second holder only) | With resident Indian (resident can operate independently) |
+| **Eligible Applicants** | Indian citizens residing abroad; PIOs/OCIs | Same |
+| **Minimum Balance** | **₹15,000** | **₹15,000** |
+
+**KYC Documents for NRI Accounts**
+
+| Document | Requirement |
+|----------|------------|
+| Valid Indian Passport | Mandatory |
+| Valid Visa / Work Permit / Residence Permit | Mandatory |
+| OCI / PIO Card (if applicable) | If applicable |
+| Overseas Address Proof (utility bill, bank statement – attested) | Mandatory |
+| Indian Address Proof (if available) | Recommended |
+| PAN Card | Mandatory |
+| Recent Photograph (2×2 cm) | Mandatory |
+| NRE/NRO Bank Statement (if existing account) | For account transfers |
 
 ---
 
 ### Summary Table (Quick Reference)
 
-| Product | Age | Income / Deposit | Minimum Balance / Installment | Credit Score | Key Docs |
-|---------|-----|------------------|------------------------------|--------------|----------|
+| Product | Age | Income / Deposit | Min Balance / Installment | Credit Score | Key Docs |
+|---------|-----|------------------|---------------------------|--------------|----------|
 | **NovaSavings** | 18‑70 (minor 7‑17) | – | ₹5,000 init. (₹10k joint) | – | PAN, Aadhaar, POA |
-| **NovaPrime Savings** | 21‑65 | ₹6 L (salaried)
+| **NovaPrime Savings** | 21‑65 | ₹6L (salaried) / ₹8L (self-emp) | ₹50,000 MAB | – | PAN, Aadhaar, Salary/ITR |
+| **NovaCurrent** | 21‑70 (proprietor) | Business entity | ₹25,000 AMB | – | PAN, GST Cert, Trade License |
+| **NovaFixed Deposit** | 18‑70 (minor 7‑17) | – | ₹10,000 (₹25k joint/NRI) | – | PAN, Aadhaar, POA |
+| **NovaRD** | 18‑70 (minor 7‑17) | – | ₹1,000/month | – | PAN, Aadhaar, POA |
+| **NovaPersonal Loan** | 21‑60 | ₹25k/mo (salaried) | – | 720+ | PAN, Aadhaar, Salary/ITR |
+| **NovaHome Loan** | 21‑65 | ₹35k/mo (salaried) | – | 700+ | PAN, Aadhaar, Property docs |
+| **NovaCreditCard Classic** | 21‑60 | ₹3L (salaried) | ₹10,000 avg balance | 720+ | PAN, Aadhaar, Salary/ITR |
+| **NovaCreditCard Platinum** | 21‑60 | ₹12L (salaried) | ₹2L avg balance | 800+ | PAN, Aadhaar, Bank Stmt |
+| **NovaSenior Savings** | 60+ | – | ₹1,000 init. | – | PAN, Aadhaar, Age Proof |
+| **NovaMinor Savings** | 7‑17 | – | ₹500 | – | Birth Cert, Guardian KYC |
+| **NovaNRI (NRE/NRO)** | 18+ | – | ₹15,000 | – | Passport, Visa, Overseas POA |

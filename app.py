@@ -7,6 +7,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from src.documents import load_and_chunk_documents
 from src.index import build_dense_index, build_bm25_index
 from src.pipeline import rag_pipeline
+from src.memory import ConversationMemory
 
 st.set_page_config(page_title="NovaBank Assistant", page_icon="🏦", layout="centered")
 
@@ -24,6 +25,11 @@ def load_components():
 
 chunks, faiss_index, bm25 = load_components()
 
+if "memory" not in st.session_state:
+    st.session_state.memory = ConversationMemory()
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
 EXAMPLE_QUESTIONS = [
     "What are the NEFT charges for NovaSavings account?",
     "What is the minimum CIBIL score for a NovaPersonal Loan?",
@@ -31,46 +37,58 @@ EXAMPLE_QUESTIONS = [
     "What documents do I need to apply for a NovaPersonal Loan?",
 ]
 
-st.write("### Ask a question")
-query = st.text_input("Your question", placeholder="e.g. What are the NEFT charges for NovaSavings account?")
 
-col1, col2 = st.columns(2)
-ask_clicked = col1.button("Ask", type="primary", use_container_width=True)
-clear_clicked = col2.button("Clear", use_container_width=True)
+def ask_question(q: str):
+    with st.spinner("Thinking..."):
+        result = rag_pipeline(
+            q, chunks, faiss_index, bm25, verbose=False,
+            conversation=st.session_state.memory.load_memory(),
+        )
+    st.session_state.memory.save_context(q, result["answer"])
+    st.session_state.messages.append({"role": "user", "content": q})
+    st.session_state.messages.append({"role": "assistant", "content": result["answer"], "result": result})
 
-if clear_clicked:
-    st.session_state.pop("last_result", None)
+
+st.sidebar.markdown("### 💬 Conversation controls")
+
+if st.sidebar.button("New conversation", use_container_width=True):
+    st.session_state.memory.clear()
+    st.session_state.messages = []
     st.rerun()
 
-with st.expander("Try an example question"):
-    for q in EXAMPLE_QUESTIONS:
-        if st.button(q, key=q, use_container_width=True):
-            query = q
-            ask_clicked = True
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Example questions**")
+for q in EXAMPLE_QUESTIONS:
+    if st.sidebar.button(q, key=q, use_container_width=True):
+        ask_question(q)
 
-if ask_clicked and query.strip():
-    with st.spinner("Thinking..."):
-        result = rag_pipeline(query.strip(), chunks, faiss_index, bm25, verbose=False)
+with st.sidebar.expander("🧠 Memory inspector", expanded=False):
+    memory = st.session_state.memory
+    buffered = len(memory.buffer)
+    st.write(f"**Buffer turns:** {buffered}")
+    st.write(f"**Summarized:** {'yes' if memory.summary else 'no'}")
+    st.write(f"**Estimated tokens fed to LLM:** {memory._approx_tokens(memory.load_memory())}")
+    st.divider()
+    st.caption("**What gets passed as 'Previous conversation':**")
+    st.code(memory.load_memory() or "(empty — memory not being tracked)", language="text")
 
-    st.session_state["last_result"] = result
+prompt = st.chat_input("Ask about NovaBank products, fees, and eligibility…")
+if prompt and prompt.strip():
+    ask_question(prompt.strip())
 
-if "last_result" in st.session_state:
-    result = st.session_state["last_result"]
-
-    st.markdown("### 💬 Answer")
-    st.markdown(result["answer"])
-
-    if result["refused"]:
-        st.warning(f"Refused · reason: {result['refusal_reason']}")
-    else:
-        st.write("")
-        st.markdown("### 📎 Sources used")
-        for chunk, score in zip(result["retrieved_chunks"], result["rrf_scores"]):
-            with st.expander(f"[{chunk.chunk_id}] ({chunk.doc_type}) — {score:.4f}"):
-                st.write(chunk.text)
-
-    m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Intent", result["intent"])
-    m2.metric("Latency", f"{result['latency_ms']:.0f} ms")
-    m3.metric("Chunks retrieved", len(result["retrieved_chunks"]))
-    m4.metric("Top RRF", f"{result['rrf_scores'][0]:.4f}" if result["rrf_scores"] else "—")
+st.write("### 💬 Conversation")
+for msg in st.session_state.messages:
+    with st.chat_message(msg["role"]):
+        st.markdown(msg["content"])
+        if msg["role"] == "assistant" and msg.get("result"):
+            result = msg["result"]
+            if result["refused"]:
+                st.warning(f"Refused · reason: {result['refusal_reason']}")
+            else:
+                with st.expander("📎 Sources used"):
+                    for chunk, score in zip(result["retrieved_chunks"], result["rrf_scores"]):
+                        st.write(f"[{chunk.chunk_id}] ({chunk.doc_type}) — {score:.4f}")
+                        st.caption(chunk.text)
+            m1, m2 = st.columns(2)
+            m1.caption(f"Intent: {result['intent']}")
+            m2.caption(f"Latency: {result['latency_ms']:.0f} ms")
