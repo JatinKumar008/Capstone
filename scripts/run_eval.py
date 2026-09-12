@@ -21,15 +21,23 @@ qa_set = []
 with open("data/qa_evaluation_set.txt", "r", encoding="utf-8", errors="replace") as f:
     for line in f:
         line = line.strip()
-        m = re.match(r"^(?:\d+\.\s*)?Q:\s*(.*?)\s*\|\s*A:\s*(.*)$", line)
+        m = re.match(
+            r"^(?:\d+\.\s*)?Q:\s*(.*?)\s*\|\s*A:\s*(.*?)\s*(?:\|\s*answerable:\s*(no|yes))?\s*$",
+            line
+        )
         if m:
-            qa_set.append({"question": m.group(1), "answer": m.group(2)})
+            flag = (m.group(3) or "yes").lower()
+            qa_set.append({
+                "question": m.group(1),
+                "answer": m.group(2),
+                "answerable": flag != "no",
+            })
 
-EVAL_SAMPLE_SIZE = 5
+EVAL_SAMPLE_SIZE = 70
 eval_sample = qa_set[:EVAL_SAMPLE_SIZE]
 
-print(f"\n📊 Running evaluation on {EVAL_SAMPLE_SIZE} samples...")
-print("(This will take a few minutes due to API calls)\n")
+print(f"\n📊 Running evaluation on {min(EVAL_SAMPLE_SIZE, len(qa_set))} samples...")
+print("(This will take a while due to API calls)\n")
 
 eval_results = []
 latencies = []
@@ -41,7 +49,8 @@ for i, qa in enumerate(eval_sample):
     latencies.append(result["latency_ms"])
 
     should_refuse = not qa.get("answerable", True)
-    metrics = evaluate_result(result, should_be_refused=should_refuse)
+    metrics = evaluate_result(result, ground_truth_answer=qa.get("answer", ""),
+                              should_be_refused=should_refuse)
 
     eval_results.append({
         "question": qa["question"],
@@ -61,11 +70,14 @@ print("\n✅ Evaluation complete!")
 answered = [r for r in eval_results if not r["refused"]]
 refused_results = [r for r in eval_results if r["refused"]]
 
-faith_scores = [r["faithfulness"] for r in answered if r.get("faithfulness") is not None]
-avg_faithfulness = statistics.mean(faith_scores) if faith_scores else 0
+def _mean(values):
+    return statistics.mean(values) if values else 0
 
-rel_scores = [r["relevancy"] for r in answered if r.get("relevancy") is not None]
-avg_relevancy = statistics.mean(rel_scores) if rel_scores else 0
+faith_scores = [r["faithfulness"] for r in answered if r.get("faithfulness") is not None]
+avg_faithfulness = _mean(faith_scores)
+
+correct_scores = [r["correctness"] for r in answered if r.get("correctness") is not None]
+avg_correctness = _mean(correct_scores)
 
 refusal_correct = [r for r in eval_results if r["refusal_correctness"] == 1.0]
 refusal_correctness = len(refusal_correct) / len(eval_results) if eval_results else 0
@@ -81,8 +93,8 @@ print(f"  Samples evaluated    : {len(eval_results)}")
 print(f"  Answered             : {len(answered)}")
 print(f"  Refused              : {len(refused_results)}")
 print(f"")
+print(f"  Golden Accuracy      : {avg_correctness:.3f}")
 print(f"  Faithfulness         : {avg_faithfulness:.3f}")
-print(f"  Answer Relevancy     : {avg_relevancy:.3f}")
 print(f"  Refusal Correctness  : {refusal_correctness:.3f}")
 print(f"")
 print(f"  Avg Latency          : {avg_latency:.0f}ms")
@@ -94,10 +106,9 @@ with open("data/eval/eval_results.json", "w") as f:
 
 summary = {
     "samples": len(eval_results),
+    "accuracy": round(avg_correctness, 3),
     "faithfulness": round(avg_faithfulness, 3),
-    "answer_relevancy": round(avg_relevancy, 3),
     "refusal_correctness": round(refusal_correctness, 3),
-    "avg_latency_ms": round(avg_latency, 1),
     "p95_latency_ms": round(p95_latency, 1)
 }
 with open("data/eval/summary.json", "w") as f:
@@ -110,12 +121,23 @@ low_faith = [
     if r.get("faithfulness") is not None and r["faithfulness"] < 0.7
 ]
 
+low_acc = [
+    r for r in answered
+    if r.get("correctness") is not None and r["correctness"] < 0.7
+]
+
 wrong_refusals = [r for r in eval_results if r["refusal_correctness"] == 0.0]
 
 print(f"\n⚠️  Low Faithfulness Cases (< 0.7): {len(low_faith)}")
 for r in low_faith[:3]:
     print(f"  Q: {r['question'][:80]}")
     print(f"  Faith: {r['faithfulness']:.2f} | {r.get('faithfulness_reason', '')}")
+    print()
+
+print(f"\n⚠️  Low Accuracy Cases vs Golden (< 0.7): {len(low_acc)}")
+for r in low_acc[:3]:
+    print(f"  Q: {r['question'][:80]}")
+    print(f"  Acc: {r['correctness']:.2f} | {r.get('correctness_reason', '')}")
     print()
 
 print(f"\n⚠️  Wrong Refusal Decisions: {len(wrong_refusals)}")

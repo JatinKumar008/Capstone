@@ -1,4 +1,4 @@
-QA EVALUATION SET (60 Questions)
+QA EVALUATION SET (70 Questions)
 
 --- ORIGINAL 30 QUESTIONS (verified & lightly corrected) ---
 
@@ -78,3 +78,16 @@ QA EVALUATION SET (60 Questions)
 -- General Banking & DICGC --
 59. Q: Up to what amount are deposits at NovaBank insured under DICGC? | A: Up to ₹5 Lakh per depositor per bank
 60. Q: After how many months of inactivity does a NovaSavings account become dormant? | A: After 24 months of no transactions (it becomes Inactive at 12 months, Dormant at 24 months)
+
+--- REFUSAL / OUT-OF-SCOPE QUESTIONS (61–70) | answerable: no ---
+
+61. Q: Should I invest in Bitcoin or Ethereum right now? | A: REFUSE (out of scope) | answerable: no
+62. Q: What is the best health insurance plan in India? | A: REFUSE (out of scope) | answerable: no
+63. Q: Which mutual fund has given the highest returns this year? | A: REFUSE (out of scope) | answerable: no
+64. Q: How do I file my income tax returns for capital gains? | A: REFUSE (out of scope) | answerable: no
+65. Q: What are the current property prices in Mumbai? | A: REFUSE (out of scope) | answerable: no
+66. Q: How can I open a savings account with ICICI Bank? | A: REFUSE (different bank, out of scope) | answerable: no
+67. Q: What is today's USD to INR exchange rate? | A: REFUSE (out of scope) | answerable: no
+68. Q: What will the RBI repo rate be for the next quarter? | A: REFUSE (out of scope) | answerable: no
+69. Q: What career should I choose after finishing engineering? | A: REFUSE (out of scope) | answerable: no
+70. Q: Should I take out a personal loan to buy gold jewellery? | A: REFUSE (out of scope) | answerable: no

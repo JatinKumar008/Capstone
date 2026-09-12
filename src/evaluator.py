@@ -36,6 +36,23 @@ Score 0.0 to 1.0 where:
 Respond ONLY with a JSON object: {{"score": <float>, "reason": "<one sentence>"}}
 """
 
+ANSWER_CORRECTNESS_PROMPT = """
+You are comparing a generated answer against a reference (expected) answer for a banking question.
+Semantic equivalence matters — ignore wording, formatting and extra details; only judge whether
+the generated answer conveys the same core factual information as the reference.
+
+Question: {question}
+Generated answer: {generated}
+Expected answer: {expected}
+
+Score 0.0 to 1.0 where:
+- 1.0 = same factual content (may be worded differently)
+- 0.5 = partially correct, missing some key information
+- 0.0 = completely wrong or different information
+
+Respond ONLY with a JSON object: {{"score": <float>, "reason": "<one sentence>"}}
+"""
+
 
 def extract_json(raw: str) -> dict:
     if not raw:
@@ -88,6 +105,7 @@ def evaluate_result(result: dict, ground_truth_answer: str = None,
     if result["refused"]:
         metrics["faithfulness"] = None
         metrics["relevancy"] = None
+        metrics["correctness"] = None
         return metrics
 
     context = "".join([c.text for c in result["retrieved_chunks"]])
@@ -101,5 +119,17 @@ def evaluate_result(result: dict, ground_truth_answer: str = None,
     rel = llm_judge(RELEVANCY_PROMPT, question=result["query"], answer=result["answer"])
     metrics["relevancy"] = rel.get("score", 0.0)
     metrics["relevancy_reason"] = rel.get("reason", "")
+    time.sleep(0.5)
+
+    if ground_truth_answer:
+        correct = llm_judge(ANSWER_CORRECTNESS_PROMPT,
+                            question=result["query"],
+                            generated=result["answer"],
+                            expected=ground_truth_answer)
+        metrics["correctness"] = correct.get("score", 0.0)
+        metrics["correctness_reason"] = correct.get("reason", "")
+    else:
+        metrics["correctness"] = None
+        metrics["correctness_reason"] = ""
 
     return metrics
