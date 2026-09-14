@@ -6,7 +6,7 @@ from openai import OpenAI, RateLimitError
 
 load_dotenv()
 
-LLM_PROVIDER = "openrouter"
+LLM_PROVIDER = "groq"
 LLM_MODEL    = "openai/gpt-oss-120b"
 
 if LLM_PROVIDER == "groq":

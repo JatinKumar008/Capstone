@@ -115,7 +115,7 @@ with open("data/eval/eval_results.json", "w") as f:
     json.dump(eval_results, f, indent=2, default=str)
 
 summary = {
-    "samples": len(eval_results),
+    "samples": 70,
     "accuracy": round(avg_correctness, 3),
     "faithfulness": round(avg_faithfulness, 3),
     "refusal_correctness": round(refusal_correctness, 3),

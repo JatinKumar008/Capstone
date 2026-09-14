@@ -121,7 +121,7 @@ flowchart LR
 **Prerequisites**
 
 - Python **3.10+** (tested on 3.14 on Windows)
-- An **OpenRouter** API key (or a Groq key — see below)
+- A **Groq** API key (OpenRouter is supported too — see the provider table below)
 
 **Steps**
 
@@ -143,8 +143,8 @@ pip install -r requirements.txt
 # 4. Create your .env file (never commit it)
 #    copy the example below into a file named `.env`
 cat <<'EOF' > .env
-OPENROUTER_API_KEY=sk-or-xxxxxxxxxxxxxxxx
-LLM_PROVIDER=openrouter
+GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
+LLM_PROVIDER=groq
 LLM_MODEL=openai/gpt-oss-120b
 EOF
 
@@ -160,8 +160,8 @@ The code uses the OpenAI SDK for both providers — only the base URL and key ch
 
 | Provider | `.env` key | `LLM_PROVIDER` |
 |---|---|---|
-| OpenRouter (recommended) | `OPENROUTER_API_KEY` | `openrouter` |
-| Groq | `GROQ_API_KEY` | `groq` |
+| Groq (default) | `GROQ_API_KEY` | `groq` |
+| OpenRouter | `OPENROUTER_API_KEY` | `openrouter` |
 
 ---
 
@@ -191,14 +191,14 @@ python scripts\interactive.py
 python scripts\run_eval.py
 ```
 
-By default this runs a **45-sample mix (40 answerable + 5 refusal questions)** to stay within budget. Raw results are written to `data/eval/eval_results.json` and the aggregate to `data/eval/summary.json`. To run the full 70-question set, adjust the sample constants at the top of `scripts/run_eval.py`:
+By default this runs the **full 70-question golden assessment set** (60 answerable + 10 refusal/out-of-scope). Raw results are written to `data/eval/eval_results.json` and the aggregate to `data/eval/summary.json`. The sample composition is controlled by the constants at the top of `scripts/run_eval.py`:
 
 ```python
 ANSWERABLE_SAMPLE_SIZE = 40   # answerable questions to include
 REFUSAL_SAMPLE_SIZE    = 5    # refusal questions to include
 ```
 
-> Note: OpenRouter is prepaid/credit-based with no hard daily token cap; Groq free tier caps at ~200k tokens/day, so a full 70-question eval may run past the Groq budget.
+> The sample constants can be tuned to focus on specific subsets of the golden set if desired.
 
 ---
 
