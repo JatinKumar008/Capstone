@@ -80,7 +80,7 @@ flowchart LR
 2. If `out_of_scope`, the assistant refuses immediately.
 3. Otherwise the query is embedded and searched against FAISS (dense) and BM25 (sparse); the two rank lists are fused with RRF and the top **8** chunks are returned.
 4. If the top fused score is below the confidence threshold, the assistant refuses with `low_confidence`.
-5. Otherwise the top **5** chunks are formatted with `[Source: chunk_id]` tags and passed to the generator, which answers strictly from context and cites every claim.
+5. Otherwise the top **8** chunks are formatted with `[Source: chunk_id]` tags and passed to the generator, which answers strictly from context and cites every claim.
 6. In chat mode, the conversation memory (summary buffer) is injected into the generator prompt to resolve follow-ups.
 
 ---
