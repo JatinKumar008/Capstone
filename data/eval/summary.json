@@ -1,0 +1,7 @@
+{
+  "samples": 70,
+  "accuracy": 0.935,
+  "faithfulness": 0.88,
+  "refusal_correctness": 1.0,
+  "p95_latency_ms": 13058.3
+}
