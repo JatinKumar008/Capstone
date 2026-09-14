@@ -2,6 +2,12 @@ import re
 import time
 from src.config import client, LLM_MODEL
 
+OTHER_BANKS = re.compile(
+    r"\b(ICICI|HDFC|SBI|Axis|Kotak|Yes\s*Bank|IndusInd|PNB|Bank\s*of\s*Baroda|"
+    r"Canara|Union\s*Bank|HSBC|Citibank|Standard\s*Chartered)\b",
+    re.IGNORECASE,
+)
+
 INTENT_SYSTEM_PROMPT = """
 You are an intent classifier for a banking assistant.
 Classify the user query into ONE of these intents:
@@ -39,6 +45,9 @@ def parse_intent(raw: str) -> str:
 
 
 def classify_intent(query: str) -> str:
+    if OTHER_BANKS.search(query):
+        return "out_of_scope"
+
     for attempt in range(3):
         response = client.chat.completions.create(
             model=LLM_MODEL,

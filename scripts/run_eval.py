@@ -33,17 +33,27 @@ with open("data/qa_evaluation_set.txt", "r", encoding="utf-8", errors="replace")
                 "answerable": flag != "no",
             })
 
-EVAL_SAMPLE_SIZE = 70
-eval_sample = qa_set[:EVAL_SAMPLE_SIZE]
+TOTAL_SAMPLES = 45
+ANSWERABLE_SAMPLE_SIZE = 40
+REFUSAL_SAMPLE_SIZE = 5
 
-print(f"\n📊 Running evaluation on {min(EVAL_SAMPLE_SIZE, len(qa_set))} samples...")
+answerable = [qa for qa in qa_set if qa["answerable"]]
+refusals = [qa for qa in qa_set if not qa["answerable"]]
+
+step = ANSWERABLE_SAMPLE_SIZE // (REFUSAL_SAMPLE_SIZE + 1)
+skip = {i * step for i in range(1, REFUSAL_SAMPLE_SIZE + 1)}
+eval_sample = [qa for i, qa in enumerate(answerable) if i not in skip][:ANSWERABLE_SAMPLE_SIZE]
+eval_sample += refusals[:REFUSAL_SAMPLE_SIZE]
+
+print(f"\n📊 Running evaluation on {len(eval_sample)} samples "
+      f"({ANSWERABLE_SAMPLE_SIZE} answerable + {REFUSAL_SAMPLE_SIZE} refusal)...")
 print("(This will take a while due to API calls)\n")
 
 eval_results = []
 latencies = []
 
 for i, qa in enumerate(eval_sample):
-    print(f"  [{i+1}/{EVAL_SAMPLE_SIZE}] {qa['question'][:200]}...")
+    print(f"  [{i+1}/{len(eval_sample)}] {qa['question'][:200]}...")
 
     result = rag_pipeline(qa["question"], chunks, faiss_index, bm25, verbose=False)
     latencies.append(result["latency_ms"])

@@ -10,7 +10,7 @@
 | **Base Interest Rate** | **3.00 % p.a.** on the first ₹2 Lakh of average daily balance (ADB). <br> **3.75 % p.a.** on the portion of ADB above ₹2 Lakh. |
 | **Minimum Balance Requirement** | ₹5,000 (individual) / ₹10,000 (joint). Waiver of the balance requirement is possible with a monthly credit of ≥ ₹10,000 (salary, pension, or regular credit). |
 | **Maximum Withdrawal Limit** | Up to **₹50,000 per day** via ATM/online; higher limits possible on request (subject to KYC & income proof). |
-| **Lock‑in / Withdrawal Rules** | No lock‑in. Premature closure after **30 days** from opening incurs a **₹500** fee. |
+| **Lock‑in / Withdrawal Rules** | No lock‑in. Premature closure **within 30 days** of opening incurs a **₹500** fee. |
 | **Key Features** | • Free ATM debit card (₹500 annual fee, waived on ≥ ₹5 Lakh ADB). <br>• Unlimited NEFT/IMPS/UPI transfers. <br>• E‑statements & mobile‑banking access. <br>• Overdraft facility up to **₹25,000** (interest 11 % p.a.) on request. |
 | **Important T&C** | • Interest is calculated on ADB and credited quarterly. <br>• Account may be frozen for KYC non‑compliance or suspicious activity. <br>• Nomination can be added/changed online. |
 
@@ -37,7 +37,7 @@
 | **Account Variants** | **Regular** (AMB ₹25,000) and **NovaCurrentPrime** (AMB ₹1 Lakh). |
 | **Interest Rate** | **0 % p.a.** (current accounts do not earn interest as per RBI guidelines). |
 | **Transaction Limits** | Regular: ₹5 Lakh/day online; NovaCurrentPrime: ₹25 Lakh/day. |
-| **Cash Deposit (Branch)** | Regular: Free up to ₹5 Lakh/month; NovaCurrentPrime: Free up to ₹20 Lakh/month. |
+| **Cash Deposit (Branch)** | Regular: Free up to ₹5 Lakh/month (₹2 per ₹1,000 thereafter); NovaCurrentPrime: Free up to ₹20 Lakh/month (₹2 per ₹1,000 thereafter). |
 | **Cash Withdrawal (Branch)** | Regular: Free up to ₹2 Lakh/month; NovaCurrentPrime: Free up to ₹10 Lakh/month. |
 | **Cheque Book** | Regular: ₹200 per 25 leaves; NovaCurrentPrime: ₹100 per 50 leaves. |
 | **Overdraft Facility** | Available on request (subject to credit appraisal); interest rate **12 % p.a.** |

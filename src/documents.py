@@ -13,8 +13,8 @@ class Chunk:
 
 def load_and_chunk_documents() -> List[Chunk]:
     sub_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=80,
+        chunk_size=650,
+        chunk_overlap=150,
         separators=["\n\n", "\n", ". ", " "]
     )
     header_splitter = MarkdownHeaderTextSplitter(

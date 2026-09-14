@@ -34,7 +34,7 @@ A premium‑tier savings product targeted at salaried professionals and high‑n
 |---------------------------|-----------------|
 | **Minimum Monthly Average Balance (MAB)** | **₹50,000** (maintained across the month) |
 | **Age** | 21 – 65 years |
-| **Salary / Income Proof** | • **Salaried:** Minimum **₹6 Lakhs** annual taxable income (salary slips for last 3 months + Form 16). <br>• **Self‑Employed / Professional:** Minimum **₹8 Lakhs** annual net income (ITR for last 2 FYs + profit & loss statement). |
+| **Salary / Income Proof** | • **Salaried:** Minimum **₹8 Lakhs** annual taxable income (salary slips for last 3 months + Form 16). <br>• **Self‑Employed / Professional:** Minimum **₹8 Lakhs** annual net income (ITR for last 2 FYs + profit & loss statement). <br>• **Alternative:** Net worth **₹25 Lakhs**. |
 | **Resident Status** | Resident Indian only (NRI not eligible for NovaPrime). |
 | **KYC** | Same as NovaSavings (PAN + Aadhaar + POA). |
 | **Other** | Must not have any active defaulted loan/overdraft with NovaBank. |
@@ -93,7 +93,7 @@ Designed for businesses, traders, and self‑employed professionals requiring hi
 | **Resident Status** | Resident Indian. NRI can open **NovaFD NRI (NRE/NRO)** – minimum **₹25,000**. |
 | **Tenure Options** | 7 days to 10 years (flexible). |
 | **Joint Accounts** | Allowed for up to 2 individuals (spouse, parent, sibling). Both must meet age & KYC. |
-| **Interest Rate** | Market‑linked (e.g., 6.25% p.a. for 1‑year tenure, 6.75% for 5‑year). Rates may vary for senior citizens (+0.5%). |
+| **Interest Rate** | Market‑linked (e.g., 5.25% p.a. for 1‑year tenure, 6.75% for 5‑year). Senior citizens receive an additional **+0.25%**. |
 | **Other** | No pending loan defaults with NovaBank. |
 
 **Documents Required**  
@@ -118,7 +118,7 @@ Designed for businesses, traders, and self‑employed professionals requiring hi
 | **Tenure Options** | 6 months, 12 months, 24 months, 36 months, 48 months, 60 months (flexible). |
 | **Age** | 18 – 70 years (Minors 7‑17 allowed with guardian). |
 | **Resident Status** | Resident Indian only (NRI RD not offered). |
-| **Interest Rate** | 5.75% – 6.50% p.a. (higher for senior citizens +0.25%). |
+| **Interest Rate** | 5.00% – 6.00% p.a. (senior citizens +0.25%). |
 | **Maturity** | Automatic renewal possible; otherwise, lump‑sum payout at maturity. |
 | **Other** | Must maintain a **standing instruction** for the monthly debit from the linked NovaSavings/NovaPrime account. |
 
@@ -141,11 +141,11 @@ Designed for businesses, traders, and self‑employed professionals requiring hi
 |---------------------------|-----------------|
 | **Age** | 21 – 60 years at loan disbursement. |
 | **Employment Type** | • **Salaried (Private/Public)** <br>• **Self‑Employed / Professional** |
-| **Minimum Monthly Income** | • **Salaried:** ≥ **₹25,000** net monthly (≈ ₹3 Lakhs p.a.). <br>• **Self‑Employed:** ≥ **₹40,000** net monthly (≈ ₹5 Lakhs p.a.) with at least 2 years of continuous operation. |
-| **Credit Score (CIBIL)** | Minimum **750** for standard pricing. **720–749** eligible with higher interest margin. |
+| **Minimum Monthly Income** | • **Salaried:** ≥ **₹25,000** net monthly (≈ ₹3 Lakhs p.a.). <br>• **Self‑Employed:** ≥ **₹35,000** net monthly with at least 2 years of continuous operation. |
+| **Credit Score (CIBIL)** | Minimum **650** for standard pricing; higher scores get lower interest margins. |
 | **Employment Stability** | • Salaried: Minimum **12 months** continuous service with current employer (or 24 months if transferred within same group). <br>• Self‑Employed: Minimum **24 months** of GST returns/ITR filing. |
 | **FOIR (Fixed‑Obligation‑to‑Income Ratio)** | ≤ **45 %** (total existing EMIs + proposed loan EMI). |
-| **Maximum Loan Amount** | Up to **₹25 Lakhs** for salaried, **₹40 Lakhs** for self‑employed (subject to income & security). |
+| **Maximum Loan Amount** | Up to **₹25 Lakhs** (higher limits for salaried & self‑employed with strong credit) |
 | **Residency** | Resident Indian. NRI personal loans are offered under a separate product (NovaNRI‑Loan). |
 | **Other** | No pending defaults with NovaBank or any other bank; no criminal record; property or guarantor may be required for high‑value loans (>₹20 Lakhs). |
 
@@ -244,7 +244,7 @@ A premium credit‑card for high‑net‑worth individuals and long‑standing N
 | **Existing Relationship** | Must have at least **₹2 Lakhs** average annual balance across any NovaBank accounts (Savings, Current, Fixed Deposit) or have a **NovaPersonal Loan**/**NovaHome Loan** active for ≥ 2 years. |
 | **Residency** | Resident Indian (NRI Platinum is a separate product). |
 | **Other** | No defaults in the last 12 months; total outstanding credit card limit across all banks ≤ **₹5 Lakhs**. |
-| **Annual Fee** | ₹2,500 (waived on spending ≥ ₹2 Lakhs per annum). |
+| **Annual Fee** | ₹5,000 (waived on spending ≥ ₹5 Lakhs per annum). |
 
 **Documents Required**  
 
@@ -342,11 +342,11 @@ For minors between ages 7 and 17, operated by a natural/legal guardian.
 | Product | Age | Income / Deposit | Min Balance / Installment | Credit Score | Key Docs |
 |---------|-----|------------------|---------------------------|--------------|----------|
 | **NovaSavings** | 18‑70 (minor 7‑17) | – | ₹5,000 init. (₹10k joint) | – | PAN, Aadhaar, POA |
-| **NovaPrime Savings** | 21‑65 | ₹6L (salaried) / ₹8L (self-emp) | ₹50,000 MAB | – | PAN, Aadhaar, Salary/ITR |
+| **NovaPrime Savings** | 21‑65 | ₹8L (salaried / self-emp) | ₹50,000 MAB | – | PAN, Aadhaar, Salary/ITR |
 | **NovaCurrent** | 21‑70 (proprietor) | Business entity | ₹25,000 AMB | – | PAN, GST Cert, Trade License |
 | **NovaFixed Deposit** | 18‑70 (minor 7‑17) | – | ₹10,000 (₹25k joint/NRI) | – | PAN, Aadhaar, POA |
 | **NovaRD** | 18‑70 (minor 7‑17) | – | ₹1,000/month | – | PAN, Aadhaar, POA |
-| **NovaPersonal Loan** | 21‑60 | ₹25k/mo (salaried) | – | 720+ | PAN, Aadhaar, Salary/ITR |
+| **NovaPersonal Loan** | 21‑60 | ₹25k/mo (salaried) | – | 650 | PAN, Aadhaar, Salary/ITR |
 | **NovaHome Loan** | 21‑65 | ₹35k/mo (salaried) | – | 700+ | PAN, Aadhaar, Property docs |
 | **NovaCreditCard Classic** | 21‑60 | ₹3L (salaried) | ₹10,000 avg balance | 720+ | PAN, Aadhaar, Salary/ITR |
 | **NovaCreditCard Platinum** | 21‑60 | ₹12L (salaried) | ₹2L avg balance | 800+ | PAN, Aadhaar, Bank Stmt |
