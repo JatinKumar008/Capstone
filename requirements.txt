@@ -1,11 +1,15 @@
+# Embeddings & vector search
+numpy
 faiss-cpu
-rank_bm25
-sentence-transformers
-groq
-openai
-langchain
-langchain-community
-langchain-text-splitters
-tiktoken
-python-dotenv
-streamlit
+rank-bm25>=0.2.2
+sentence-transformers>=3.0
+
+# Document chunking
+langchain-text-splitters>=0.3
+
+# LLM access (OpenRouter / Groq via OpenAI-compatible SDK)
+openai>=1.40
+python-dotenv>=1.0
+
+# UI
+streamlit>=1.30
