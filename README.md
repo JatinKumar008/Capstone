@@ -2,6 +2,8 @@
 
 A grounded question-answering assistant for NovaBank's products, fees, and eligibility rules. It combines hybrid retrieval (dense + sparse) with LLM generation, refuses out-of-scope or low-confidence questions, and is evaluated end-to-end with an LLM-as-a-judge harness.
 
+LINK: https://capstone-with-memory.streamlit.app/
+
 ---
 
 ## Table of Contents
