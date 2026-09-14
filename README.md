@@ -193,10 +193,7 @@ python scripts\run_eval.py
 
 By default this runs the **full 70-question golden assessment set** (60 answerable + 10 refusal/out-of-scope). Raw results are written to `data/eval/eval_results.json` and the aggregate to `data/eval/summary.json`. The sample composition is controlled by the constants at the top of `scripts/run_eval.py`:
 
-```python
-ANSWERABLE_SAMPLE_SIZE = 40   # answerable questions to include
-REFUSAL_SAMPLE_SIZE    = 5    # refusal questions to include
-```
+
 
 > The sample constants can be tuned to focus on specific subsets of the golden set if desired.
 
